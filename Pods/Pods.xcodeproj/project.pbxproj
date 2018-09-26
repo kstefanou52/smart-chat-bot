@@ -1,0 +1,1471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AED20FA4352D463746FA67415E42D7 /* AIConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE776C338E25B028BB14EA22F6B1EF7 /* AIConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00C2F422A6785BFCD272D6BC6E38D376 /* TLCollapsibleDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFDB62D5439944928EE39A59AFE4AE1 /* TLCollapsibleDataModel.m */; };
+		00CA0676C6845B58B16CDCE94252572C /* AIRequestEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 171A5F2EF9320A77AF596D8B32F71775 /* AIRequestEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		018A1A775F886E7CB1B28E9E2BAC4A32 /* AISessionIdentifierStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C725E35BD9CADF41AECA4BBB5D5FD8A /* AISessionIdentifierStorage.m */; };
+		01DB970F60E67E94EDFC395451C43871 /* AIResponseContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 283735424B9057166119A4378EA076DA /* AIResponseContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01F26FF4FB3AAF496938F786BD6F27F4 /* AIVoiceFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1122177B243AC85B5C99398A77A51139 /* AIVoiceFileRequest.m */; };
+		093DD4378467461C6A7763579CFCCD8E /* AIRecordDetectorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFEED708003B23710200B53F54226B5 /* AIRecordDetectorDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		093ED548B8EC02E127FE8A9A44080DCC /* AIVoiceContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FCFA82516CA65E45BE15F7788BFF39 /* AIVoiceContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		095457B8DC40B2706822DBD926D25F12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1175A8E77A2EC6FB44180221AEA18E /* UIKit.framework */; };
+		0992C2C2500F68B05834AFDA6C5AFC34 /* TLIndexPathTools.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C0ECD13D7294381223BFD3C195BF1D /* TLIndexPathTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B6C54979C051DDA51A7BD3CA94A467 /* AIDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = A94B03900EEE43B364329AE6E2AB778B /* AIDataService.m */; };
+		0C24320D1AF2D071234624795B854305 /* AIRequestEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D6367D08921F41B5F1BC7C14D308F0 /* AIRequestEntity.m */; };
+		0C9DE00ADB8346BFB1D46474E3949D7C /* AIAudioFileConvertOperationTypes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ACBA96E1633384DA486C0EED42F91 /* AIAudioFileConvertOperationTypes.mm */; };
+		0D03D28A58761F3848D0D988F235C920 /* AIVoiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED40411972469BCA2B8E081DDA8640B /* AIVoiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D665199DAFEAEF7E09DF7EC0AAB5170 /* AIDataProcessInfo.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E8C1DE34B71FE6A14070AD4036EA461 /* AIDataProcessInfo.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DFA449131D6D698579333037E0E7DCF /* TLTreeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFB3146D5AA832E4DC0D13CD69ACBB6 /* TLTreeDataModel.m */; };
+		0EB4D396184EEB9EABE828A8EC7E2DAD /* AIUserEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 36630C1A82AA6339FC98E8F410B1608F /* AIUserEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC94618DC199591160E634A75F57675 /* AIDefaultConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C05BDA952C68F5CC42B8BA8BB1F9635 /* AIDefaultConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1193E79403BE1FDBBA1E688684DF34C9 /* TLIndexPathSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F3922BD5B3D7E6523ACF5517C7FA3 /* TLIndexPathSectionInfo.m */; };
+		12CB21C94051AD2543E425DD813889AC /* AIResponseConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 689734A448E02340DE6773E930CD7CF3 /* AIResponseConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12E0CCDAD282B094308362E58374F435 /* AIDatePeriodFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A724275B31CB207B4E9BBA560E9CC76D /* AIDatePeriodFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1329EF938D367C778FCA268A6B7BB02B /* AIEllipseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EF313E20611EFEA48C9A275DD3EE2B /* AIEllipseView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13DCB2467E762C5F3254F5DA0AC61B03 /* AIAudioFileConvertOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 46DDDCFDE9604BB85F024182F6422930 /* AIAudioFileConvertOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1704742541D881025763522BE4A7000D /* ApiAI.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C510E93E0D42E1A57C7F9DE1783A0D /* ApiAI.m */; };
+		181EB3BA97FB76B26EA2381D7CD5DE63 /* AIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F691DBACF9591683D0B0CC92EFEA995E /* AIResponse.m */; };
+		18484A51766644C4EA1CD1A0B9C509E8 /* TLIndexPathUpdates.h in Headers */ = {isa = PBXBuildFile; fileRef = B77AC646C39B1A27A9181183D86550BC /* TLIndexPathUpdates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BA3477C3593180188D4BC01A2E2A8FA /* TLTreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D059182AAA0EB7B518ED455626E4EBC4 /* TLTreeTableViewController.m */; };
+		1BB0D10E1D00E339A45C18502EB6E2A0 /* TLIndexPathDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E54415C6BE45F56DD81A2F64928D7213 /* TLIndexPathDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC6C1E36600B1030E6CAC0E32F09EA2 /* AISoundRecorderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F0BAAB0A1D48121B29F8A6CA330301 /* AISoundRecorderConstants.m */; };
+		1CD99D9AAB95C89F7063767B88D41105 /* AIRequestEntity_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F580F526837BD770AF2B0D722AEBD11 /* AIRequestEntity_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D2EFB947C80BA7CD0FBA0F87FBE3F8C /* TLCollapsibleDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 90414B19A1D33F37D328C3AC1E1EC73C /* TLCollapsibleDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2008D3E4BB7B4C7677884A89EB6435BF /* EnergyAndZeroCross.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A6188E99FD8AC9CD0121747BD58F2B /* EnergyAndZeroCross.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		210F975040E18C4FD571391C9F0FFB5C /* AIVoiceFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 698A42E9938BA8864D64FEAD0A13C0BA /* AIVoiceFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2296900D4A3100528223330C6F8D055D /* EnergyAndZeroCross.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA8A8E5D30E341E266DF4D5C35E4689 /* EnergyAndZeroCross.m */; };
+		24274F194A9F57F6F260F6362A90B26B /* AIQueryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1438FF90F167390BE2AFF38495ED0588 /* AIQueryRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		298529D89A07E649A11727A3568F0838 /* TLIndexPathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC213B610967B66E5E2EC8BB80F9711 /* TLIndexPathController.m */; };
+		2B8B83F7FA42A6933457A21DABB197E9 /* TLIndexPathDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD845108C78C0F3C9BDA06D7E5F56F3 /* TLIndexPathDataModel.m */; };
+		2C046359BFFDB7C0BDDB212D47A89244 /* TLIndexPathSectionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DECE042D3812128FE91C6A6934F85C /* TLIndexPathSectionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3092E52114715397E501FD8219EEF5B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4555770DB63B3E2D7F0DD721D678C336 /* Foundation.framework */; };
+		30F000DE4A7A874BD5012ABCB4FE571B /* AIMicrophoneControlImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B0E8FCD43781377C6083D32DA99744 /* AIMicrophoneControlImage@3x.png */; };
+		3321E9ACE9B7268748294C3DF11DCB17 /* AIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E730FFD1FFB59BB5BCA0DBDF4DAE05E /* AIResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33F2740175A20BC7CFB263415054FC2C /* AdaptiveThresold.m in Sources */ = {isa = PBXBuildFile; fileRef = FF155C9A25D139BFF712250EF4C9738C /* AdaptiveThresold.m */; };
+		34B9696F98D1AE30763395210BFA3780 /* AIQueryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B13B309DB658049D508A0DA5CF4200 /* AIQueryRequest.m */; };
+		37EA9D34B99A07F66972B2395CAC474A /* TLCollapsibleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BBCEC49257B89358A4153B05566ED5 /* TLCollapsibleTableViewController.m */; };
+		3814B62514D980D9CA3DEB75044B3A27 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CAB02C84C9BFABD5C995AA62EEB678 /* CoreData.framework */; };
+		38876690B810E03F068FDD0A8CF83899 /* AIEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C2B8A137F139E95CAE101C3969F7F50 /* AIEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E94D60DF4EB7365F7C0CE94ED2AF5C /* AISessionIdentifierStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = DA202FF4CD86A9DBF21009559B3D4C8D /* AISessionIdentifierStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AEC0C5AD4F0F641BC46E31CCBCB92A7 /* AIAudioFileConvertOperation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 104CD0711B1788AFB742DE705BF48C37 /* AIAudioFileConvertOperation.mm */; };
+		3B7A089A1CFC2B099FCD2C22D7D4E379 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60C5ED740A006213AAC2717296BE8EC /* AVFoundation.framework */; };
+		3BF6D7BF69AF9DAB260D1FB625FAFE84 /* AIVoiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55912A3EA1DC2255ACA605589FCF901D /* AIVoiceRequest.m */; };
+		3C193398E20B6A9AD4AF16AE99B5DF69 /* TLNoResultsTableDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4241A554348856805DB453DE2662CE /* TLNoResultsTableDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D42AEDCD8A22532E4964DCFB377502F /* AIResponseStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = B14DF89DE89E10A6879135BED5FE19BE /* AIResponseStatus.m */; };
+		3F66B9A338CC511BDA956354CEF1B5A3 /* AIResponseParameterConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 388DF205795DA12C3193D155B0648389 /* AIResponseParameterConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41EA0CA2AB0C876B32D2634347D5C2F7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F18A60922A1A68C3796EE4DAA7F50C7 /* AudioToolbox.framework */; };
+		423821ABE430846F9402DADDD8AC1C85 /* AIDataService.h in Headers */ = {isa = PBXBuildFile; fileRef = E37A2CD2D82B941861C83E5A20CB9409 /* AIDataService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42DEB81EBB6A5F792EAE37D0C230DF60 /* AIVoiceFileRequest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7492761E9686A21785CD8C66F23515D4 /* AIVoiceFileRequest_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4574B5CE3242AC5F22E06A9FEDA9FC9F /* AIResponseContext_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DC26947883196F285444A557B495FDC0 /* AIResponseContext_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47FD466CC20F2201426CCA068616160A /* AIAlgorithmDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C6862C107509125416355A4DCA57C6 /* AIAlgorithmDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D020931671894EB3806A61F7B39873F /* TLIndexPathTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F410291EFC7B10375A69EC03DC02017 /* TLIndexPathTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E66E8F886EF2C5C0C839B934E3D0240 /* TLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4735D34B55F699FD291B9110A90E99B3 /* TLTableViewController.m */; };
+		4F5760C53D27100332A4B3203C2845D0 /* AIMicrophoneControlImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 309D95ABEBD6289BDF8382CA200F100F /* AIMicrophoneControlImage.png */; };
+		51823A52F96F44ECA5F16C73ED95701C /* ApiAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F0014921E31306E04E3E0F52FB7340 /* ApiAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BAE976A89C308008B1887253654A9F /* AIResponseParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 334B42F96454BDF8886DF0C71F505BF7 /* AIResponseParameter.m */; };
+		53A5B2694DB60AB5E4303B46552AF359 /* ApiAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC99D938A5A432DF31BE312C0203E9E9 /* ApiAI-dummy.m */; };
+		55487EED2EAD341A938DB7BAD95BA691 /* TLCollapsibleHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7FB1B68B1A37FAA8A7A09F66FD3CCF /* TLCollapsibleHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0FD9ABF8AEC529C7FCB788D4C383F5 /* AIVoiceContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBDB6533CC8B2D8015A26155B8F1ABF /* AIVoiceContainerView.m */; };
+		5E3BFA436093F1333F512AE232B5F4B6 /* AIStreamBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A797DC7BB6B38A9B73201E6D8A00199 /* AIStreamBuffer.m */; };
+		5FC8E7ABCBBEB659A2D64896A9CBAB22 /* AIUserEntitiesRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1030AB27B515D0C458618215A3A88A76 /* AIUserEntitiesRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6044C04B67A36852F1219D19F115E8D2 /* TLNoResultsTableDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D43EB86C256645AD3F5550A82CCDF /* TLNoResultsTableDataModel.m */; };
+		607C5525F426B17FACEB7125C4593679 /* AIRecordDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = BC74937FC6037F02EA9E08E0BDA2F536 /* AIRecordDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		624C4D7AA92A929563056ABB485FA326 /* UITableViewController+ScrollOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 423961A7C913BB22C20FD1253D42A355 /* UITableViewController+ScrollOptimizer.m */; };
+		632D672059C003FB1BA7EEC61DF57DF8 /* AdaptiveThresold.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E61F82754C94ABF35D2561AF84766D /* AdaptiveThresold.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64135A6D51F0E53C7954BB53EB02190B /* AIMicrophoneControlImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8502D5C383611E6CE685331D62272575 /* AIMicrophoneControlImage@2x.png */; };
+		6471CA13DE277C028F5C7596EF4E9BB7 /* AIEventRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C64ADBFC7509FC6F274F1CA6F9F56793 /* AIEventRequest.m */; };
+		64E21A82448068144C6AF2059423B5DA /* AIDataProcessInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D98838111BBBE3F75369A3819624FE1 /* AIDataProcessInfo.cpp */; };
+		652FB4FAA6404377E7799EA5D045DF35 /* AIDataService_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 54DBF70FB2952B7A7CCC4C7F8A757528 /* AIDataService_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		657B9185BB7E080F586B778FB79E589D /* AIAudioUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A9FE2C61668FE6B55150F6F825AF0D /* AIAudioUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		680EE70E24EC357EAE685AFB1488892C /* AIAlgorithmDetectorTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4000B340508A867D5E9C53FA3CB126BA /* AIAlgorithmDetectorTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DEB9B43E58409DF806F7BE6EAF102C2 /* AIMeterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 695137498588BA272F8B01B3C359BA69 /* AIMeterTable.m */; };
+		6FB76743909BF080CAFC0138E42E28C3 /* AIUserEntitiesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 068758A6FB2268AD1370314E7D3CAF51 /* AIUserEntitiesRequest.m */; };
+		71D8617EB7B3913E88124285066A9927 /* AISoundRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5F6E13163B7BFDDC40CD66B23EE3FE /* AISoundRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71E1AE744F235E097AFBF27A2CC18AF0 /* AIStreamBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA95A4B9738039AEEF0A2EDBFE43B7B /* AIStreamBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72215BD358E64F0E427C2510E7A21B91 /* AIOriginalRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D7062758F239F8E90ABD401DF7E441ED /* AIOriginalRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		747D6F127B24A0B9AEF5FF26A2F371D1 /* AIResponseMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B45ADF3D7E540F49A26DAAD11CBDD /* AIResponseMetadata.m */; };
+		74C86F274FC2D19AF7E2D323C1382BED /* AIVoiceLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F983C4E5B1A93A630AF7E8F67E9F7B87 /* AIVoiceLevelView.m */; };
+		75C431C21FE51CEC87D84BF71AD38A2B /* beep.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FCECAF38CD44078AA49094F37A171AA /* beep.caf */; };
+		78077172D74E2EEC77B3AC1906D98455 /* AIResponseParameterConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A20C0E94D932C655A8894AA68A887586 /* AIResponseParameterConstants.m */; };
+		78DD9EAB4ED55E8B9CD2EA69C27BB804 /* AIResponseFulfillment.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D7E6BE82D0B8EB7D850FFE1B8AD8D2 /* AIResponseFulfillment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4A0D29A0E5A8A4A67895991E592E01 /* AIQueryRequest+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 58589D9D81900580365AD56CF1F6A16C /* AIQueryRequest+Private.m */; };
+		8025D51AE77A32E68FBD36F013BF0EA9 /* TLIndexPathController.h in Headers */ = {isa = PBXBuildFile; fileRef = F54C756542A5C803BE5D6674519506FB /* TLIndexPathController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8468E5D41106E618EEC905A9FF740C20 /* TLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057FC21A51AD7B58D0F3D446152BD5F0 /* TLCollectionViewController.m */; };
+		87E8C15430F4C4DC4986CDEBB726F1DF /* TLIndexPathUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C79378B0B40A2FA164E2C7AFE719FB /* TLIndexPathUpdates.m */; };
+		8E83A6425265027F1E7780F41496E025 /* AIDefaultConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4255FD24848407C89BA5FAB393363C /* AIDefaultConfiguration.m */; };
+		9074F7E721848BDC2D9152BD1441E532 /* AIEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 011029A712593B2508A6F858002C3F58 /* AIEvent.m */; };
+		936BAEEED7D6A9665411B6DB55916955 /* AIVoiceRequestButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A90B2A69A253294F8EB2B720AE74599 /* AIVoiceRequestButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		940493A49FE1F8F7826957348D4987F8 /* AIRequestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DAF3B5FBD676FCA7BE9000C8C024F3 /* AIRequestContext.m */; };
+		945EFFEC752219FF0B8B3CA57A4EF7F0 /* AIEllipseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D3C34CFA41A28E2E9C8CBB7DAD1A9 /* AIEllipseView.m */; };
+		9705F7A5D74DB9715B7C139E02EFC689 /* Pods-SmartChatBot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2957CECEAC7D9C14636437106E5A2B2 /* Pods-SmartChatBot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97655CF733E98C9ACA8F0C8D50A229D3 /* AIAlgorithmDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9384D86FB6C20DF5435666F0B6A398D0 /* AIAlgorithmDetector.m */; };
+		97F1CE34DEFCAF5ADAA0F2B6B502890D /* TLTreeTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DD64C9653720C050F18EA1FAB3F14FFF /* TLTreeTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E51FB0CF6CF0DECA81AC2BD956BD1E /* AIResponseStatus_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6C2AAEB79FD552D3C5E14B6AA6B694 /* AIResponseStatus_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BB185E0E8626EF255470B0CE3D37298 /* AISoundRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A8813FB3053BEBBCD9A97CBD8B960F9C /* AISoundRecorder.m */; };
+		9F8632A11F44148663217ABB2E8A0BA9 /* AICubeIconImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF963CC75D6BC3047E8263A0BDB818C /* AICubeIconImage@2x.png */; };
+		9FDADC2EEEFD0A52DAF512C9D7B38DFD /* AIResponseResult_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DB12DF9563287D7753FE565AABB1CDF6 /* AIResponseResult_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1C0BC8FBDD4FD00B9443551A41152A3 /* AIRequestEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F42B09446E9C8949DA82030E8F3D2 /* AIRequestEntry.m */; };
+		A45D6DB1D01654F80B84D134DB4E8CD3 /* AISoundRecorderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E350DC7A918E07D9328B73D748FEC42 /* AISoundRecorderDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4B4222A820A1836A4D48EDCBB62BA3A /* AIResponseStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = B366EDA3EDA4A8B23D9F35E12235F498 /* AIResponseStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7836A60B9AA4F7670E3DB6F1D9377E4 /* AIUserEntity_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A50548B2EE5DA3F8477215363171D5B4 /* AIUserEntity_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A86148B2868122282D54C3780E1F6622 /* TLTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 658C60781AE8BB95EB6918A5082D5C2E /* TLTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A903AB30DC7AC305AD9FDBC2EB729463 /* AIResponseMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = D7526C5C37C2784D4419B5349427088E /* AIResponseMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9972F269FF7058A6A126FD744D63D43 /* TLIndexPathTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B0444D943D02EB4AEB06DA6AABEA38 /* TLIndexPathTools-dummy.m */; };
+		ACD731DF8090665A4FCBE1DA06311D6E /* TLIndexPathItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0506D524B98DE57B02E6AF93F7A045 /* TLIndexPathItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3B99BD171EE01B99A60DA76EB4D09C /* AINullabilityDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EA047385864D9380098C4DDE48D0207D /* AINullabilityDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0652E491B3237BFE5D68C040D53437E /* UITableView+ScrollOptimizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B741508E4B5A9D4463E8ED522A5C212C /* UITableView+ScrollOptimizer.m */; };
+		B097F69C7692841D0A9EC3368C51D91C /* TLDynamicHeightLabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CAD2FC3B6CBB5963EE4FD2BC2FA4F66 /* TLDynamicHeightLabelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FB9DB4242B68792F87A1B840A7F603 /* AIEventRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C065BE3766D0E042260B10B426F19E /* AIEventRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1DE9FBCC22BA042C66153DFBE6EB4AC /* AIResponseMetadata_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 068CA98291BC6DD42658EED641D5D0FA /* AIResponseMetadata_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3D8186FAFDAC4596CC29FCF8658173A /* AIOriginalRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5413CD97C0C824F9A436716CCF0C89A2 /* AIOriginalRequest.m */; };
+		B3F7D9C6E44BE074A1FA14A3D5F3BAA8 /* AIUserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 961F8EBC82554EFD97388E65886C2FF6 /* AIUserEntity.m */; };
+		B5B09BC3F8B3F0BD5A63D7D27F2F1B79 /* AIResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D45372EF004A38ABB6CA2648BB7BD373 /* AIResponseResult.m */; };
+		B5F78EBA47165BECF4FEBE71033C44D0 /* ApiAI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FCC68E911CB38C051594CCF83B03AC /* ApiAI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B744982D22EC4478C1EC8A52D0C0361A /* AICubeIconImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C3C7B8534815C472B7767B4B9AE6AC /* AICubeIconImage@3x.png */; };
+		B890BFA57D24CCDC5E76619299F5A901 /* TLDynamicHeightLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1A36ABB4F6B2C37E5562601A24DD7 /* TLDynamicHeightLabelCell.m */; };
+		B93EF129F2E7B4F34B35E7EBCE77216A /* AISoundRecorderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D22034F84B1550CA0BFAD4B69AB58400 /* AISoundRecorderConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC48B41F5C62BF1AF2F10F710DEE2D4B /* AIResponseParameter_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA6AF3E3A9BEE696CEF269D5C8814C3 /* AIResponseParameter_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C071547FFC6D0017290ADA6661B6AF68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1175A8E77A2EC6FB44180221AEA18E /* UIKit.framework */; };
+		C2FD753318295C5BF51367E574FCB806 /* AIOriginalRequest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5516F021015580EBBF697950F0BC94 /* AIOriginalRequest_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C467A174732308AF5C47CA987FC084AB /* AIResponseConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D15094C528B9B25A72547B70534FB /* AIResponseConstants.m */; };
+		C4D970802EF87BD6C7FD4FB8AE8B0E11 /* AIVoiceRequestButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2170A151945E362A8DDE6F791C1373EB /* AIVoiceRequestButton.xib */; };
+		C5D331727A8034EFD35890326006290A /* AIProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A607F90EA8C0EB8F87152F9DF8222C /* AIProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6E24AB97958595CD5830FAB02E6582D /* AITextRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D2303C0601DDF2EE9839E95B848D08 /* AITextRequest.m */; };
+		C7B6C3A3C487FC42A3107BD6B4E604B7 /* UITableViewController+ScrollOptimizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 723324E9F0799D40C523B709E9C2B972 /* UITableViewController+ScrollOptimizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C974AB7949133D5F1986FE487B7D62CF /* AIRequest+AIMappedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE1241E3AA450537A4DB34589EF8971 /* AIRequest+AIMappedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2163FA24BD6EE9D17251DC6E8035EE /* AICubeIconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B118C3DBB30091BEC9914CAD986EFEB2 /* AICubeIconImage.png */; };
+		D079A62670A60D6B596482EEA77C10B9 /* AIResponseParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A97B7B1B6D3C97EE7902A6E6A10917 /* AIResponseParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2BB6BA29B5B4D4EF92038A484E02ED8 /* AIDatePeriodFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE36F1CFF2F609A641C02EDFC51F4BF /* AIDatePeriodFormatter.m */; };
+		D3B38527FCED5E1B334F91373C6C0599 /* TLTreeDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF028817A4DE00238D4D33A6FCC63250 /* TLTreeDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D423B212D9BC4C90AE2B11FB25844E7F /* AIAudioFileConvertOperationTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E21AA43168CDED11571CFAD6FD72101 /* AIAudioFileConvertOperationTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D44BF021270FB3F94C321036A56C1D47 /* Pods-SmartChatBot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E04F6110B3997E886B4AA8D3F6082159 /* Pods-SmartChatBot-dummy.m */; };
+		D549DE0359025F0DD6AA4C293863131C /* AITextRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 878FB876883751650F979FFAE927337D /* AITextRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64708C3F5D3AA245B3BF24D73E3537C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CA6BBC6BA65F7CA3EAE689C3D1E98D /* QuartzCore.framework */; };
+		D6DBAC6F344EFC88C4CAEF8C2FF05F39 /* TLIndexPathTreeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5843521BFCA7516485AED7FF7C588E59 /* TLIndexPathTreeItem.m */; };
+		D7A6B744784A15C260CC10763B9E8037 /* AIQueryRequest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CD451E01D4396E11DD38AF0E2CC0FB98 /* AIQueryRequest+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D81799426FCC1CC992154F7E118BC191 /* AIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 481CB66200C13923A533C4ECF4425371 /* AIRequest.m */; };
+		D92E4C10C94D4B02B6B3DD04A5B08224 /* AIRequestContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 728F4D1D32A768E63387666F908F6DC5 /* AIRequestContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5F79E44BD2B214FE3084373930C746 /* AIRequest_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DD89D859A6A7B40A47C4697270FA727F /* AIRequest_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DBEB9EFA90233CC2481385814579A645 /* AIRequest+AIMappedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEBC4397091DC8FA8CF2F5AA680DAA9 /* AIRequest+AIMappedResponse.m */; };
+		DD48872299ECFF457E15258F925CF53C /* AIRequestEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = DC10F45E824A1547006CE0A330294AB7 /* AIRequestEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4EAF0849A49F935532D1FE1E32B78B /* AIRecordDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B5D9FCAA6565651DB7EF1E53C37D33 /* AIRecordDetector.m */; };
+		DEDD3D29C1EEF92576EBF1A7D8E4064C /* TLIndexPathTreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A28F26ECF789FB1D21D75EB2B7EB39E /* TLIndexPathTreeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01F68D3151565010870E6393B9711F8 /* TLCollapsibleTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2D42F0530DC2DA6C8B32720B5611AC /* TLCollapsibleTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E668F71A40750D9C2D6FA3A569849771 /* AIVoiceRequestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F6848D5180FEEE25F74EDAD6643D210A /* AIVoiceRequestButton.m */; };
+		E96AE965B08DD8D0C343C304882CDA68 /* AIResponseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8641A695AA16DD4F392502503C9149CD /* AIResponseContext.m */; };
+		EA357399D00C5A478195EACF014CF774 /* AIVoiceLevelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 817D9A5DAF1A0D78FF2F7959090EB168 /* AIVoiceLevelView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB2AB5F66866371406D1D5F23EA8C3E5 /* TLIndexPathItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6758D2880684F80FEFE7FB8060FDC3FD /* TLIndexPathItem.m */; };
+		EDFE6F0F2B0A2B38BCAFB015503163B2 /* AIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AB691FF9245D88BAC573DC9130D945 /* AIRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE711EA56FA47910C4C445DBADBDEF1F /* TLDynamicHeightCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F12D99D1BA517D5C1F769F29B9396BA5 /* TLDynamicHeightCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE91B9C0CB104F4C7F6B1DB5BC5EAA22 /* AIAlgorithmDetectorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1714F4A06209A2E384AD9E365ADD0350 /* AIAlgorithmDetectorDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEC6A475EA1567587001774BC2F37FA7 /* TLCollapsibleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AAAC91865ABD7869B2593976D4FF96 /* TLCollapsibleHeaderView.m */; };
+		EFD5AFC4AA74CE12DBFB8984A8BD9D26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4555770DB63B3E2D7F0DD721D678C336 /* Foundation.framework */; };
+		EFD8395967BF3BAB550F20D195E6FE83 /* UITableView+ScrollOptimizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B85A0641FDD9095CFA137E473726FE9C /* UITableView+ScrollOptimizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F010E4769FDE365344E4EF1314B53EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4555770DB63B3E2D7F0DD721D678C336 /* Foundation.framework */; };
+		F19B9098F7B9548B827553401AE01ABD /* AIAudioUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D78EB1C78BE57E9403BDBA9195E9FED /* AIAudioUtils.c */; };
+		F24F8C8C4794C82B9C2BECC83A8E9A48 /* AIResponseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA1D6C772004B87900542866134237C /* AIResponseResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4EE7441C0013291B91C84296509EC82 /* ApiAI_ApiAI_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A51FA69AE16CCD4315A6AD4E4235ED /* ApiAI_ApiAI_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5956A4C9C3D240A72D017309BAC7C88 /* AIResponseFulfillment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A249B40D68D05F8ADBD5F232D98E607 /* AIResponseFulfillment.m */; };
+		F99F89D490087631DA8F41F86FF92EDB /* TLCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F47AEEA473D3F0129C5C270A565983 /* TLCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA316C42C48B73EB2A033D4B007BA1E8 /* TLDynamicSizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0CAADED0C1850B3DE7AF02F7EEB7E1 /* TLDynamicSizeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB90CC6D4ACEB42D890A318F26A78D5A /* AIStreamBufferDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 273071FF19280885F3C9E7CCBD86C9DE /* AIStreamBufferDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBEFDE04EED06BAEE1CB4A33834FCDA8 /* AIResponseFulfillment_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2596BC690F4F60B3393AB59F3ADD57 /* AIResponseFulfillment_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD9EDC2B14134715222B01F0BB2BBD1F /* AIMeterTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 825DE0AB58FA08ED5F4554302BC044EA /* AIMeterTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE76AC2681BC44A24D5CB55209806E96 /* AIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BC91CC9C4576C63AAF77110B7CC0 /* AIProgressView.m */; };
+		FF4630DA7E09C808C7F9338D117D87CE /* TLDynamicHeightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE73D426F39AA0732A508DAB3DAB521 /* TLDynamicHeightCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2467A7424B3DF35713C317DCC3E3A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C321297C3045A2D34570469CAEF11B8A;
+			remoteInfo = ApiAI;
+		};
+		F0F3403E815A36C90E3A792E51E24984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB182556B789D160DC80461B2384CAD;
+			remoteInfo = TLIndexPathTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AC5544FF98B666462AE3612F2A5BC5 /* ApiAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ApiAI.framework; path = ApiAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B0444D943D02EB4AEB06DA6AABEA38 /* TLIndexPathTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLIndexPathTools-dummy.m"; sourceTree = "<group>"; };
+		00C79378B0B40A2FA164E2C7AFE719FB /* TLIndexPathUpdates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLIndexPathUpdates.m; path = "TLIndexPathTools/Data Model/TLIndexPathUpdates.m"; sourceTree = "<group>"; };
+		011029A712593B2508A6F858002C3F58 /* AIEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIEvent.m; path = ApiAI/EventRequest/AIEvent.m; sourceTree = "<group>"; };
+		03A2DFE138EBF6EE32BCA3E36DE04344 /* Pods-SmartChatBot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartChatBot.modulemap"; sourceTree = "<group>"; };
+		03AB691FF9245D88BAC573DC9130D945 /* AIRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequest.h; path = ApiAI/Classes/AIRequest.h; sourceTree = "<group>"; };
+		057FC21A51AD7B58D0F3D446152BD5F0 /* TLCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLCollectionViewController.m; path = "TLIndexPathTools/View Controllers/TLCollectionViewController.m"; sourceTree = "<group>"; };
+		068758A6FB2268AD1370314E7D3CAF51 /* AIUserEntitiesRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIUserEntitiesRequest.m; path = ApiAI/UserEntities/Classes/AIUserEntitiesRequest.m; sourceTree = "<group>"; };
+		068CA98291BC6DD42658EED641D5D0FA /* AIResponseMetadata_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseMetadata_Private.h; path = ApiAI/Response/Private/AIResponseMetadata_Private.h; sourceTree = "<group>"; };
+		06EF313E20611EFEA48C9A275DD3EE2B /* AIEllipseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIEllipseView.h; path = ApiAI/UIKit/Private/AIEllipseView.h; sourceTree = "<group>"; };
+		0BF963CC75D6BC3047E8263A0BDB818C /* AICubeIconImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AICubeIconImage@2x.png"; path = "ApiAI/UIKit/Images/AICubeIconImage@2x.png"; sourceTree = "<group>"; };
+		0D2D15094C528B9B25A72547B70534FB /* AIResponseConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseConstants.m; path = ApiAI/Classes/AIResponseConstants.m; sourceTree = "<group>"; };
+		0E8F3922BD5B3D7E6523ACF5517C7FA3 /* TLIndexPathSectionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLIndexPathSectionInfo.m; path = "TLIndexPathTools/Data Model/TLIndexPathSectionInfo.m"; sourceTree = "<group>"; };
+		0F18A60922A1A68C3796EE4DAA7F50C7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		1030AB27B515D0C458618215A3A88A76 /* AIUserEntitiesRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIUserEntitiesRequest.h; path = ApiAI/UserEntities/Classes/AIUserEntitiesRequest.h; sourceTree = "<group>"; };
+		104CD0711B1788AFB742DE705BF48C37 /* AIAudioFileConvertOperation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = AIAudioFileConvertOperation.mm; path = ApiAI/AudioFileConverter/Classes/AIAudioFileConvertOperation.mm; sourceTree = "<group>"; };
+		1122177B243AC85B5C99398A77A51139 /* AIVoiceFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceFileRequest.m; path = ApiAI/VoiceFileRequest/Classes/AIVoiceFileRequest.m; sourceTree = "<group>"; };
+		1250717BB791FDCDA743CF32ECFA690D /* Pods-SmartChatBot-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartChatBot-resources.sh"; sourceTree = "<group>"; };
+		1438FF90F167390BE2AFF38495ED0588 /* AIQueryRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIQueryRequest.h; path = ApiAI/Classes/AIQueryRequest.h; sourceTree = "<group>"; };
+		162020B8AC02DB3E74E83F8C7C03C67D /* Pods_SmartChatBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartChatBot.framework; path = "Pods-SmartChatBot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1714F4A06209A2E384AD9E365ADD0350 /* AIAlgorithmDetectorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAlgorithmDetectorDelegate.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetectorDelegate.h; sourceTree = "<group>"; };
+		171A5F2EF9320A77AF596D8B32F71775 /* AIRequestEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestEntry.h; path = ApiAI/Classes/AIRequestEntry.h; sourceTree = "<group>"; };
+		1B6C2AAEB79FD552D3C5E14B6AA6B694 /* AIResponseStatus_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseStatus_Private.h; path = ApiAI/Response/Private/AIResponseStatus_Private.h; sourceTree = "<group>"; };
+		1BE1241E3AA450537A4DB34589EF8971 /* AIRequest+AIMappedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AIRequest+AIMappedResponse.h"; path = "ApiAI/Response/Classes/AIRequest+AIMappedResponse.h"; sourceTree = "<group>"; };
+		1C4241A554348856805DB453DE2662CE /* TLNoResultsTableDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLNoResultsTableDataModel.h; path = "TLIndexPathTools/Extensions/No Results/TLNoResultsTableDataModel.h"; sourceTree = "<group>"; };
+		1E21AA43168CDED11571CFAD6FD72101 /* AIAudioFileConvertOperationTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAudioFileConvertOperationTypes.h; path = ApiAI/AudioFileConverter/Private/AIAudioFileConvertOperationTypes.h; sourceTree = "<group>"; };
+		20E61F82754C94ABF35D2561AF84766D /* AdaptiveThresold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdaptiveThresold.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/AdaptiveThresold/AdaptiveThresold.h; sourceTree = "<group>"; };
+		2170A151945E362A8DDE6F791C1373EB /* AIVoiceRequestButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AIVoiceRequestButton.xib; path = ApiAI/UIKit/Classes/AIVoiceRequestButton.xib; sourceTree = "<group>"; };
+		273071FF19280885F3C9E7CCBD86C9DE /* AIStreamBufferDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIStreamBufferDelegate.h; path = ApiAI/Private/Streamer/AIStreamBufferDelegate.h; sourceTree = "<group>"; };
+		283735424B9057166119A4378EA076DA /* AIResponseContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseContext.h; path = ApiAI/Response/Classes/AIResponseContext.h; sourceTree = "<group>"; };
+		28CA6BBC6BA65F7CA3EAE689C3D1E98D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		29AAA982306C56DF6F781E2043668EDB /* Pods-SmartChatBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartChatBot.release.xcconfig"; sourceTree = "<group>"; };
+		2A0506D524B98DE57B02E6AF93F7A045 /* TLIndexPathItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLIndexPathItem.h; path = "TLIndexPathTools/Data Model/TLIndexPathItem.h"; sourceTree = "<group>"; };
+		2A28F26ECF789FB1D21D75EB2B7EB39E /* TLIndexPathTreeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLIndexPathTreeItem.h; path = TLIndexPathTools/Extensions/Tree/TLIndexPathTreeItem.h; sourceTree = "<group>"; };
+		2B7BCAB23EFD14E505D0580FC30ACE8D /* Pods-SmartChatBot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartChatBot-frameworks.sh"; sourceTree = "<group>"; };
+		2C05BDA952C68F5CC42B8BA8BB1F9635 /* AIDefaultConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDefaultConfiguration.h; path = ApiAI/Classes/AIDefaultConfiguration.h; sourceTree = "<group>"; };
+		2D5516F021015580EBBF697950F0BC94 /* AIOriginalRequest_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIOriginalRequest_Private.h; path = ApiAI/Private/AIOriginalRequest_Private.h; sourceTree = "<group>"; };
+		2D78EB1C78BE57E9403BDBA9195E9FED /* AIAudioUtils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = AIAudioUtils.c; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIAudioUtils.c; sourceTree = "<group>"; };
+		2D8D43EB86C256645AD3F5550A82CCDF /* TLNoResultsTableDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLNoResultsTableDataModel.m; path = "TLIndexPathTools/Extensions/No Results/TLNoResultsTableDataModel.m"; sourceTree = "<group>"; };
+		2FFDB62D5439944928EE39A59AFE4AE1 /* TLCollapsibleDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLCollapsibleDataModel.m; path = TLIndexPathTools/Extensions/Collapsible/TLCollapsibleDataModel.m; sourceTree = "<group>"; };
+		309D95ABEBD6289BDF8382CA200F100F /* AIMicrophoneControlImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = AIMicrophoneControlImage.png; path = ApiAI/UIKit/Images/AIMicrophoneControlImage.png; sourceTree = "<group>"; };
+		334B42F96454BDF8886DF0C71F505BF7 /* AIResponseParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseParameter.m; path = ApiAI/Response/Classes/AIResponseParameter.m; sourceTree = "<group>"; };
+		336A91E0D3B5D248352E1A18BC064123 /* ApiAI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiAI-prefix.pch"; sourceTree = "<group>"; };
+		34C3C7B8534815C472B7767B4B9AE6AC /* AICubeIconImage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AICubeIconImage@3x.png"; path = "ApiAI/UIKit/Images/AICubeIconImage@3x.png"; sourceTree = "<group>"; };
+		36630C1A82AA6339FC98E8F410B1608F /* AIUserEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIUserEntity.h; path = ApiAI/UserEntities/Classes/AIUserEntity.h; sourceTree = "<group>"; };
+		388DF205795DA12C3193D155B0648389 /* AIResponseParameterConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseParameterConstants.h; path = ApiAI/Response/Private/AIResponseParameterConstants.h; sourceTree = "<group>"; };
+		3E2ACBA96E1633384DA486C0EED42F91 /* AIAudioFileConvertOperationTypes.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = AIAudioFileConvertOperationTypes.mm; path = ApiAI/AudioFileConverter/Private/AIAudioFileConvertOperationTypes.mm; sourceTree = "<group>"; };
+		3E8C1DE34B71FE6A14070AD4036EA461 /* AIDataProcessInfo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = AIDataProcessInfo.hpp; path = ApiAI/AudioFileConverter/Private/AIDataProcessInfo.hpp; sourceTree = "<group>"; };
+		3ED40411972469BCA2B8E081DDA8640B /* AIVoiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceRequest.h; path = ApiAI/VoiceRequest/Classes/AIVoiceRequest.h; sourceTree = "<group>"; };
+		3FE36F1CFF2F609A641C02EDFC51F4BF /* AIDatePeriodFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIDatePeriodFormatter.m; path = ApiAI/Response/Private/Formatters/AIDatePeriodFormatter.m; sourceTree = "<group>"; };
+		4000B340508A867D5E9C53FA3CB126BA /* AIAlgorithmDetectorTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAlgorithmDetectorTypes.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetectorTypes.h; sourceTree = "<group>"; };
+		40A51FA69AE16CCD4315A6AD4E4235ED /* ApiAI_ApiAI_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ApiAI_ApiAI_Private.h; path = ApiAI/Private/ApiAI_ApiAI_Private.h; sourceTree = "<group>"; };
+		40D7E6BE82D0B8EB7D850FFE1B8AD8D2 /* AIResponseFulfillment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseFulfillment.h; path = ApiAI/Response/Classes/AIResponseFulfillment.h; sourceTree = "<group>"; };
+		423961A7C913BB22C20FD1253D42A355 /* UITableViewController+ScrollOptimizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableViewController+ScrollOptimizer.m"; path = "TLIndexPathTools/Extensions/UITableViewController+ScrollOptimizer.m"; sourceTree = "<group>"; };
+		4468E7678D1A046E24680C11C7967BE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4555770DB63B3E2D7F0DD721D678C336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46DDDCFDE9604BB85F024182F6422930 /* AIAudioFileConvertOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAudioFileConvertOperation.h; path = ApiAI/AudioFileConverter/Classes/AIAudioFileConvertOperation.h; sourceTree = "<group>"; };
+		4735D34B55F699FD291B9110A90E99B3 /* TLTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLTableViewController.m; path = "TLIndexPathTools/View Controllers/TLTableViewController.m"; sourceTree = "<group>"; };
+		481CB66200C13923A533C4ECF4425371 /* AIRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequest.m; path = ApiAI/Classes/AIRequest.m; sourceTree = "<group>"; };
+		4B93E44DB14D911FAE7FC896288F097C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA8A8E5D30E341E266DF4D5C35E4689 /* EnergyAndZeroCross.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EnergyAndZeroCross.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/EnergyAndZeroCross/EnergyAndZeroCross.m; sourceTree = "<group>"; };
+		4E730FFD1FFB59BB5BCA0DBDF4DAE05E /* AIResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponse.h; path = ApiAI/Response/Classes/AIResponse.h; sourceTree = "<group>"; };
+		4F580F526837BD770AF2B0D722AEBD11 /* AIRequestEntity_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestEntity_Private.h; path = ApiAI/Private/AIRequestEntity_Private.h; sourceTree = "<group>"; };
+		50B13B309DB658049D508A0DA5CF4200 /* AIQueryRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIQueryRequest.m; path = ApiAI/Classes/AIQueryRequest.m; sourceTree = "<group>"; };
+		52E0F3E9BA1C58957987CC088568C685 /* ApiAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApiAI.xcconfig; sourceTree = "<group>"; };
+		5413CD97C0C824F9A436716CCF0C89A2 /* AIOriginalRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIOriginalRequest.m; path = ApiAI/Classes/AIOriginalRequest.m; sourceTree = "<group>"; };
+		54DBF70FB2952B7A7CCC4C7F8A757528 /* AIDataService_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDataService_Private.h; path = ApiAI/Private/AIDataService_Private.h; sourceTree = "<group>"; };
+		55912A3EA1DC2255ACA605589FCF901D /* AIVoiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceRequest.m; path = ApiAI/VoiceRequest/Classes/AIVoiceRequest.m; sourceTree = "<group>"; };
+		5843521BFCA7516485AED7FF7C588E59 /* TLIndexPathTreeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLIndexPathTreeItem.m; path = TLIndexPathTools/Extensions/Tree/TLIndexPathTreeItem.m; sourceTree = "<group>"; };
+		58589D9D81900580365AD56CF1F6A16C /* AIQueryRequest+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AIQueryRequest+Private.m"; path = "ApiAI/Private/AIQueryRequest+Private.m"; sourceTree = "<group>"; };
+		5A0CAADED0C1850B3DE7AF02F7EEB7E1 /* TLDynamicSizeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLDynamicSizeView.h; path = "TLIndexPathTools/View Controllers/TLDynamicSizeView.h"; sourceTree = "<group>"; };
+		5A249B40D68D05F8ADBD5F232D98E607 /* AIResponseFulfillment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseFulfillment.m; path = ApiAI/Response/Classes/AIResponseFulfillment.m; sourceTree = "<group>"; };
+		5EEBC4397091DC8FA8CF2F5AA680DAA9 /* AIRequest+AIMappedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AIRequest+AIMappedResponse.m"; path = "ApiAI/Response/Classes/AIRequest+AIMappedResponse.m"; sourceTree = "<group>"; };
+		60303332DC1CD3D37A84D5CFEC63284E /* Pods-SmartChatBot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartChatBot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60CAB02C84C9BFABD5C995AA62EEB678 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		60F0BAAB0A1D48121B29F8A6CA330301 /* AISoundRecorderConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AISoundRecorderConstants.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorderConstants.m; sourceTree = "<group>"; };
+		658C60781AE8BB95EB6918A5082D5C2E /* TLTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLTableViewController.h; path = "TLIndexPathTools/View Controllers/TLTableViewController.h"; sourceTree = "<group>"; };
+		6758D2880684F80FEFE7FB8060FDC3FD /* TLIndexPathItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLIndexPathItem.m; path = "TLIndexPathTools/Data Model/TLIndexPathItem.m"; sourceTree = "<group>"; };
+		689734A448E02340DE6773E930CD7CF3 /* AIResponseConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseConstants.h; path = ApiAI/Classes/AIResponseConstants.h; sourceTree = "<group>"; };
+		695137498588BA272F8B01B3C359BA69 /* AIMeterTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIMeterTable.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIMeterTable.m; sourceTree = "<group>"; };
+		698A42E9938BA8864D64FEAD0A13C0BA /* AIVoiceFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceFileRequest.h; path = ApiAI/VoiceFileRequest/Classes/AIVoiceFileRequest.h; sourceTree = "<group>"; };
+		6A797DC7BB6B38A9B73201E6D8A00199 /* AIStreamBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIStreamBuffer.m; path = ApiAI/Private/Streamer/AIStreamBuffer.m; sourceTree = "<group>"; };
+		6BD845108C78C0F3C9BDA06D7E5F56F3 /* TLIndexPathDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLIndexPathDataModel.m; path = "TLIndexPathTools/Data Model/TLIndexPathDataModel.m"; sourceTree = "<group>"; };
+		6C2B8A137F139E95CAE101C3969F7F50 /* AIEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIEvent.h; path = ApiAI/EventRequest/AIEvent.h; sourceTree = "<group>"; };
+		6DC213B610967B66E5E2EC8BB80F9711 /* TLIndexPathController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLIndexPathController.m; path = TLIndexPathTools/Controllers/TLIndexPathController.m; sourceTree = "<group>"; };
+		6F1F42B09446E9C8949DA82030E8F3D2 /* AIRequestEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequestEntry.m; path = ApiAI/Classes/AIRequestEntry.m; sourceTree = "<group>"; };
+		6F410291EFC7B10375A69EC03DC02017 /* TLIndexPathTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLIndexPathTools-umbrella.h"; sourceTree = "<group>"; };
+		70D2303C0601DDF2EE9839E95B848D08 /* AITextRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AITextRequest.m; path = ApiAI/Classes/AITextRequest.m; sourceTree = "<group>"; };
+		723324E9F0799D40C523B709E9C2B972 /* UITableViewController+ScrollOptimizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewController+ScrollOptimizer.h"; path = "TLIndexPathTools/Extensions/UITableViewController+ScrollOptimizer.h"; sourceTree = "<group>"; };
+		728F4D1D32A768E63387666F908F6DC5 /* AIRequestContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestContext.h; path = ApiAI/Classes/AIRequestContext.h; sourceTree = "<group>"; };
+		7492761E9686A21785CD8C66F23515D4 /* AIVoiceFileRequest_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceFileRequest_Private.h; path = ApiAI/VoiceFileRequest/Private/AIVoiceFileRequest_Private.h; sourceTree = "<group>"; };
+		79A607F90EA8C0EB8F87152F9DF8222C /* AIProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIProgressView.h; path = ApiAI/UIKit/Private/AIProgressView.h; sourceTree = "<group>"; };
+		7AE776C338E25B028BB14EA22F6B1EF7 /* AIConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIConfiguration.h; path = ApiAI/Classes/AIConfiguration.h; sourceTree = "<group>"; };
+		7BE73D426F39AA0732A508DAB3DAB521 /* TLDynamicHeightCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLDynamicHeightCell.m; path = TLIndexPathTools/Extensions/TLDynamicHeightCell.m; sourceTree = "<group>"; };
+		7D98838111BBBE3F75369A3819624FE1 /* AIDataProcessInfo.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = AIDataProcessInfo.cpp; path = ApiAI/AudioFileConverter/Private/AIDataProcessInfo.cpp; sourceTree = "<group>"; };
+		7E350DC7A918E07D9328B73D748FEC42 /* AISoundRecorderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISoundRecorderDelegate.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorderDelegate.h; sourceTree = "<group>"; };
+		7FCECAF38CD44078AA49094F37A171AA /* beep.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = beep.caf; path = ApiAI/VoiceRequest/Resources/beep.caf; sourceTree = "<group>"; };
+		80BBCEC49257B89358A4153B05566ED5 /* TLCollapsibleTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLCollapsibleTableViewController.m; path = TLIndexPathTools/Extensions/Collapsible/TLCollapsibleTableViewController.m; sourceTree = "<group>"; };
+		80F0014921E31306E04E3E0F52FB7340 /* ApiAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ApiAI.h; path = ApiAI/Classes/ApiAI.h; sourceTree = "<group>"; };
+		817D9A5DAF1A0D78FF2F7959090EB168 /* AIVoiceLevelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceLevelView.h; path = ApiAI/UIKit/Private/AIVoiceLevelView.h; sourceTree = "<group>"; };
+		81A97B7B1B6D3C97EE7902A6E6A10917 /* AIResponseParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseParameter.h; path = ApiAI/Response/Classes/AIResponseParameter.h; sourceTree = "<group>"; };
+		825DE0AB58FA08ED5F4554302BC044EA /* AIMeterTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIMeterTable.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIMeterTable.h; sourceTree = "<group>"; };
+		83C6862C107509125416355A4DCA57C6 /* AIAlgorithmDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAlgorithmDetector.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetector.h; sourceTree = "<group>"; };
+		8502D5C383611E6CE685331D62272575 /* AIMicrophoneControlImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AIMicrophoneControlImage@2x.png"; path = "ApiAI/UIKit/Images/AIMicrophoneControlImage@2x.png"; sourceTree = "<group>"; };
+		8641A695AA16DD4F392502503C9149CD /* AIResponseContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseContext.m; path = ApiAI/Response/Classes/AIResponseContext.m; sourceTree = "<group>"; };
+		86AAAC91865ABD7869B2593976D4FF96 /* TLCollapsibleHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLCollapsibleHeaderView.m; path = TLIndexPathTools/Extensions/Collapsible/TLCollapsibleHeaderView.m; sourceTree = "<group>"; };
+		878FB876883751650F979FFAE927337D /* AITextRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AITextRequest.h; path = ApiAI/Classes/AITextRequest.h; sourceTree = "<group>"; };
+		8BA1D6C772004B87900542866134237C /* AIResponseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseResult.h; path = ApiAI/Response/Classes/AIResponseResult.h; sourceTree = "<group>"; };
+		8C725E35BD9CADF41AECA4BBB5D5FD8A /* AISessionIdentifierStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AISessionIdentifierStorage.m; path = ApiAI/Private/AISessionIdentifierStorage.m; sourceTree = "<group>"; };
+		90414B19A1D33F37D328C3AC1E1EC73C /* TLCollapsibleDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLCollapsibleDataModel.h; path = TLIndexPathTools/Extensions/Collapsible/TLCollapsibleDataModel.h; sourceTree = "<group>"; };
+		91F47AEEA473D3F0129C5C270A565983 /* TLCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLCollectionViewController.h; path = "TLIndexPathTools/View Controllers/TLCollectionViewController.h"; sourceTree = "<group>"; };
+		924D3C34CFA41A28E2E9C8CBB7DAD1A9 /* AIEllipseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIEllipseView.m; path = ApiAI/UIKit/Private/AIEllipseView.m; sourceTree = "<group>"; };
+		93817BFD982CDE2070F54F7A5085BC86 /* Pods-SmartChatBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartChatBot.debug.xcconfig"; sourceTree = "<group>"; };
+		9384D86FB6C20DF5435666F0B6A398D0 /* AIAlgorithmDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIAlgorithmDetector.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetector.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		961F8EBC82554EFD97388E65886C2FF6 /* AIUserEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIUserEntity.m; path = ApiAI/UserEntities/Classes/AIUserEntity.m; sourceTree = "<group>"; };
+		9A90B2A69A253294F8EB2B720AE74599 /* AIVoiceRequestButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceRequestButton.h; path = ApiAI/UIKit/Classes/AIVoiceRequestButton.h; sourceTree = "<group>"; };
+		9B7C67FCCA26C910CBBE6FADD3EDDC3E /* Pods-SmartChatBot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartChatBot-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CAD2FC3B6CBB5963EE4FD2BC2FA4F66 /* TLDynamicHeightLabelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLDynamicHeightLabelCell.h; path = TLIndexPathTools/Extensions/TLDynamicHeightLabelCell.h; sourceTree = "<group>"; };
+		9F9B45ADF3D7E540F49A26DAAD11CBDD /* AIResponseMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseMetadata.m; path = ApiAI/Response/Classes/AIResponseMetadata.m; sourceTree = "<group>"; };
+		A20C0E94D932C655A8894AA68A887586 /* AIResponseParameterConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseParameterConstants.m; path = ApiAI/Response/Private/AIResponseParameterConstants.m; sourceTree = "<group>"; };
+		A50548B2EE5DA3F8477215363171D5B4 /* AIUserEntity_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIUserEntity_Private.h; path = ApiAI/UserEntities/Private/AIUserEntity_Private.h; sourceTree = "<group>"; };
+		A5A9FE2C61668FE6B55150F6F825AF0D /* AIAudioUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAudioUtils.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIAudioUtils.h; sourceTree = "<group>"; };
+		A724275B31CB207B4E9BBA560E9CC76D /* AIDatePeriodFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDatePeriodFormatter.h; path = ApiAI/Response/Private/Formatters/AIDatePeriodFormatter.h; sourceTree = "<group>"; };
+		A8813FB3053BEBBCD9A97CBD8B960F9C /* AISoundRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AISoundRecorder.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorder.m; sourceTree = "<group>"; };
+		A94B03900EEE43B364329AE6E2AB778B /* AIDataService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIDataService.m; path = ApiAI/Private/Network/AIDataService.m; sourceTree = "<group>"; };
+		AC89BC91CC9C4576C63AAF77110B7CC0 /* AIProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIProgressView.m; path = ApiAI/UIKit/Private/AIProgressView.m; sourceTree = "<group>"; };
+		AC99D938A5A432DF31BE312C0203E9E9 /* ApiAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApiAI-dummy.m"; sourceTree = "<group>"; };
+		ADA6AF3E3A9BEE696CEF269D5C8814C3 /* AIResponseParameter_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseParameter_Private.h; path = ApiAI/Response/Private/AIResponseParameter_Private.h; sourceTree = "<group>"; };
+		AF744A31643C33B6B7128B5DD3D07C74 /* TLIndexPathTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLIndexPathTools.modulemap; sourceTree = "<group>"; };
+		B118C3DBB30091BEC9914CAD986EFEB2 /* AICubeIconImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = AICubeIconImage.png; path = ApiAI/UIKit/Images/AICubeIconImage.png; sourceTree = "<group>"; };
+		B14DF89DE89E10A6879135BED5FE19BE /* AIResponseStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseStatus.m; path = ApiAI/Response/Classes/AIResponseStatus.m; sourceTree = "<group>"; };
+		B366EDA3EDA4A8B23D9F35E12235F498 /* AIResponseStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseStatus.h; path = ApiAI/Response/Classes/AIResponseStatus.h; sourceTree = "<group>"; };
+		B3B5D9FCAA6565651DB7EF1E53C37D33 /* AIRecordDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRecordDetector.m; path = ApiAI/VoiceRequest/Private/RecordDetector/AIRecordDetector.m; sourceTree = "<group>"; };
+		B741508E4B5A9D4463E8ED522A5C212C /* UITableView+ScrollOptimizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ScrollOptimizer.m"; path = "TLIndexPathTools/Extensions/UITableView+ScrollOptimizer.m"; sourceTree = "<group>"; };
+		B77AC646C39B1A27A9181183D86550BC /* TLIndexPathUpdates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLIndexPathUpdates.h; path = "TLIndexPathTools/Data Model/TLIndexPathUpdates.h"; sourceTree = "<group>"; };
+		B85A0641FDD9095CFA137E473726FE9C /* UITableView+ScrollOptimizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+ScrollOptimizer.h"; path = "TLIndexPathTools/Extensions/UITableView+ScrollOptimizer.h"; sourceTree = "<group>"; };
+		B8C065BE3766D0E042260B10B426F19E /* AIEventRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIEventRequest.h; path = ApiAI/EventRequest/AIEventRequest.h; sourceTree = "<group>"; };
+		BA5F6E13163B7BFDDC40CD66B23EE3FE /* AISoundRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISoundRecorder.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorder.h; sourceTree = "<group>"; };
+		BC74937FC6037F02EA9E08E0BDA2F536 /* AIRecordDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRecordDetector.h; path = ApiAI/VoiceRequest/Private/RecordDetector/AIRecordDetector.h; sourceTree = "<group>"; };
+		BE1175A8E77A2EC6FB44180221AEA18E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF2596BC690F4F60B3393AB59F3ADD57 /* AIResponseFulfillment_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseFulfillment_Private.h; path = ApiAI/Response/Private/AIResponseFulfillment_Private.h; sourceTree = "<group>"; };
+		C0939256BAC1DD674B331E0172F92ECE /* TLIndexPathTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLIndexPathTools.framework; path = TLIndexPathTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D6367D08921F41B5F1BC7C14D308F0 /* AIRequestEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequestEntity.m; path = ApiAI/Classes/AIRequestEntity.m; sourceTree = "<group>"; };
+		C3BFA996A8A56A4F59C6475E9362F116 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FCC68E911CB38C051594CCF83B03AC /* ApiAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiAI-umbrella.h"; sourceTree = "<group>"; };
+		C5C0ECD13D7294381223BFD3C195BF1D /* TLIndexPathTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLIndexPathTools.h; path = TLIndexPathTools/TLIndexPathTools.h; sourceTree = "<group>"; };
+		C64ADBFC7509FC6F274F1CA6F9F56793 /* AIEventRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIEventRequest.m; path = ApiAI/EventRequest/AIEventRequest.m; sourceTree = "<group>"; };
+		C6DAF3B5FBD676FCA7BE9000C8C024F3 /* AIRequestContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequestContext.m; path = ApiAI/Classes/AIRequestContext.m; sourceTree = "<group>"; };
+		C6F1908BA028E888EB833C04C133E453 /* TLIndexPathTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLIndexPathTools-prefix.pch"; sourceTree = "<group>"; };
+		C7FCFA82516CA65E45BE15F7788BFF39 /* AIVoiceContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceContainerView.h; path = ApiAI/UIKit/Private/AIVoiceContainerView.h; sourceTree = "<group>"; };
+		CAFEED708003B23710200B53F54226B5 /* AIRecordDetectorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRecordDetectorDelegate.h; path = ApiAI/VoiceRequest/Private/RecordDetector/AIRecordDetectorDelegate.h; sourceTree = "<group>"; };
+		CD2B2A80DB2F10C1D64E2329F03F2A9B /* ApiAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApiAI.modulemap; sourceTree = "<group>"; };
+		CD451E01D4396E11DD38AF0E2CC0FB98 /* AIQueryRequest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AIQueryRequest+Private.h"; path = "ApiAI/Private/AIQueryRequest+Private.h"; sourceTree = "<group>"; };
+		CEB000CBEDB270240C76CD3641D69442 /* TLIndexPathTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLIndexPathTools.xcconfig; sourceTree = "<group>"; };
+		D059182AAA0EB7B518ED455626E4EBC4 /* TLTreeTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLTreeTableViewController.m; path = TLIndexPathTools/Extensions/Tree/TLTreeTableViewController.m; sourceTree = "<group>"; };
+		D22034F84B1550CA0BFAD4B69AB58400 /* AISoundRecorderConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISoundRecorderConstants.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorderConstants.h; sourceTree = "<group>"; };
+		D2A6188E99FD8AC9CD0121747BD58F2B /* EnergyAndZeroCross.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnergyAndZeroCross.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/EnergyAndZeroCross/EnergyAndZeroCross.h; sourceTree = "<group>"; };
+		D45372EF004A38ABB6CA2648BB7BD373 /* AIResponseResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseResult.m; path = ApiAI/Response/Classes/AIResponseResult.m; sourceTree = "<group>"; };
+		D4DECE042D3812128FE91C6A6934F85C /* TLIndexPathSectionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLIndexPathSectionInfo.h; path = "TLIndexPathTools/Data Model/TLIndexPathSectionInfo.h"; sourceTree = "<group>"; };
+		D7062758F239F8E90ABD401DF7E441ED /* AIOriginalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIOriginalRequest.h; path = ApiAI/Classes/AIOriginalRequest.h; sourceTree = "<group>"; };
+		D7526C5C37C2784D4419B5349427088E /* AIResponseMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseMetadata.h; path = ApiAI/Response/Classes/AIResponseMetadata.h; sourceTree = "<group>"; };
+		DA202FF4CD86A9DBF21009559B3D4C8D /* AISessionIdentifierStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISessionIdentifierStorage.h; path = ApiAI/Private/AISessionIdentifierStorage.h; sourceTree = "<group>"; };
+		DAFB3146D5AA832E4DC0D13CD69ACBB6 /* TLTreeDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLTreeDataModel.m; path = TLIndexPathTools/Extensions/Tree/TLTreeDataModel.m; sourceTree = "<group>"; };
+		DB12DF9563287D7753FE565AABB1CDF6 /* AIResponseResult_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseResult_Private.h; path = ApiAI/Response/Private/AIResponseResult_Private.h; sourceTree = "<group>"; };
+		DC10F45E824A1547006CE0A330294AB7 /* AIRequestEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestEntity.h; path = ApiAI/Classes/AIRequestEntity.h; sourceTree = "<group>"; };
+		DC26947883196F285444A557B495FDC0 /* AIResponseContext_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseContext_Private.h; path = ApiAI/Response/Private/AIResponseContext_Private.h; sourceTree = "<group>"; };
+		DD64C9653720C050F18EA1FAB3F14FFF /* TLTreeTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLTreeTableViewController.h; path = TLIndexPathTools/Extensions/Tree/TLTreeTableViewController.h; sourceTree = "<group>"; };
+		DD89D859A6A7B40A47C4697270FA727F /* AIRequest_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequest_Private.h; path = ApiAI/Private/AIRequest_Private.h; sourceTree = "<group>"; };
+		DFA95A4B9738039AEEF0A2EDBFE43B7B /* AIStreamBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIStreamBuffer.h; path = ApiAI/Private/Streamer/AIStreamBuffer.h; sourceTree = "<group>"; };
+		E04F6110B3997E886B4AA8D3F6082159 /* Pods-SmartChatBot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartChatBot-dummy.m"; sourceTree = "<group>"; };
+		E37A2CD2D82B941861C83E5A20CB9409 /* AIDataService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDataService.h; path = ApiAI/Private/Network/AIDataService.h; sourceTree = "<group>"; };
+		E54415C6BE45F56DD81A2F64928D7213 /* TLIndexPathDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLIndexPathDataModel.h; path = "TLIndexPathTools/Data Model/TLIndexPathDataModel.h"; sourceTree = "<group>"; };
+		E60C5ED740A006213AAC2717296BE8EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		E8B0E8FCD43781377C6083D32DA99744 /* AIMicrophoneControlImage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AIMicrophoneControlImage@3x.png"; path = "ApiAI/UIKit/Images/AIMicrophoneControlImage@3x.png"; sourceTree = "<group>"; };
+		EA047385864D9380098C4DDE48D0207D /* AINullabilityDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AINullabilityDefines.h; path = ApiAI/Classes/AINullabilityDefines.h; sourceTree = "<group>"; };
+		EEBDB6533CC8B2D8015A26155B8F1ABF /* AIVoiceContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceContainerView.m; path = ApiAI/UIKit/Private/AIVoiceContainerView.m; sourceTree = "<group>"; };
+		EF028817A4DE00238D4D33A6FCC63250 /* TLTreeDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLTreeDataModel.h; path = TLIndexPathTools/Extensions/Tree/TLTreeDataModel.h; sourceTree = "<group>"; };
+		F12D99D1BA517D5C1F769F29B9396BA5 /* TLDynamicHeightCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLDynamicHeightCell.h; path = TLIndexPathTools/Extensions/TLDynamicHeightCell.h; sourceTree = "<group>"; };
+		F2957CECEAC7D9C14636437106E5A2B2 /* Pods-SmartChatBot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartChatBot-umbrella.h"; sourceTree = "<group>"; };
+		F54C756542A5C803BE5D6674519506FB /* TLIndexPathController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLIndexPathController.h; path = TLIndexPathTools/Controllers/TLIndexPathController.h; sourceTree = "<group>"; };
+		F6848D5180FEEE25F74EDAD6643D210A /* AIVoiceRequestButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceRequestButton.m; path = ApiAI/UIKit/Classes/AIVoiceRequestButton.m; sourceTree = "<group>"; };
+		F691DBACF9591683D0B0CC92EFEA995E /* AIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponse.m; path = ApiAI/Response/Classes/AIResponse.m; sourceTree = "<group>"; };
+		F7C510E93E0D42E1A57C7F9DE1783A0D /* ApiAI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ApiAI.m; path = ApiAI/Classes/ApiAI.m; sourceTree = "<group>"; };
+		F983C4E5B1A93A630AF7E8F67E9F7B87 /* AIVoiceLevelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceLevelView.m; path = ApiAI/UIKit/Private/AIVoiceLevelView.m; sourceTree = "<group>"; };
+		FA7FB1B68B1A37FAA8A7A09F66FD3CCF /* TLCollapsibleHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLCollapsibleHeaderView.h; path = TLIndexPathTools/Extensions/Collapsible/TLCollapsibleHeaderView.h; sourceTree = "<group>"; };
+		FD2D42F0530DC2DA6C8B32720B5611AC /* TLCollapsibleTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLCollapsibleTableViewController.h; path = TLIndexPathTools/Extensions/Collapsible/TLCollapsibleTableViewController.h; sourceTree = "<group>"; };
+		FE4255FD24848407C89BA5FAB393363C /* AIDefaultConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIDefaultConfiguration.m; path = ApiAI/Classes/AIDefaultConfiguration.m; sourceTree = "<group>"; };
+		FF155C9A25D139BFF712250EF4C9738C /* AdaptiveThresold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AdaptiveThresold.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/AdaptiveThresold/AdaptiveThresold.m; sourceTree = "<group>"; };
+		FFD1A36ABB4F6B2C37E5562601A24DD7 /* TLDynamicHeightLabelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLDynamicHeightLabelCell.m; path = TLIndexPathTools/Extensions/TLDynamicHeightLabelCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ED7F5B471324A13AC619F43A857BBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EA0CA2AB0C876B32D2634347D5C2F7 /* AudioToolbox.framework in Frameworks */,
+				3B7A089A1CFC2B099FCD2C22D7D4E379 /* AVFoundation.framework in Frameworks */,
+				EFD5AFC4AA74CE12DBFB8984A8BD9D26 /* Foundation.framework in Frameworks */,
+				095457B8DC40B2706822DBD926D25F12 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB75B39AF2A77374793C378E0F69072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3814B62514D980D9CA3DEB75044B3A27 /* CoreData.framework in Frameworks */,
+				F010E4769FDE365344E4EF1314B53EDC /* Foundation.framework in Frameworks */,
+				D64708C3F5D3AA245B3BF24D73E3537C /* QuartzCore.framework in Frameworks */,
+				C071547FFC6D0017290ADA6661B6AF68 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E9A348EB74E5D058AA668236DEF94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3092E52114715397E501FD8219EEF5B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D96216F8E6EBD756D13FC1D3F9B6E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00AC5544FF98B666462AE3612F2A5BC5 /* ApiAI.framework */,
+				162020B8AC02DB3E74E83F8C7C03C67D /* Pods_SmartChatBot.framework */,
+				C0939256BAC1DD674B331E0172F92ECE /* TLIndexPathTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E9F70C2ACEFB492CBD8F0A6C433D0F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		137B5FA234977EC0CD076F736E7D0763 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B2A80DB2F10C1D64E2329F03F2A9B /* ApiAI.modulemap */,
+				52E0F3E9BA1C58957987CC088568C685 /* ApiAI.xcconfig */,
+				AC99D938A5A432DF31BE312C0203E9E9 /* ApiAI-dummy.m */,
+				336A91E0D3B5D248352E1A18BC064123 /* ApiAI-prefix.pch */,
+				C4FCC68E911CB38C051594CCF83B03AC /* ApiAI-umbrella.h */,
+				4B93E44DB14D911FAE7FC896288F097C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ApiAI";
+			sourceTree = "<group>";
+		};
+		163F7DEDB2DEF11736CEAEAA4B0BD3A9 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				6C2B8A137F139E95CAE101C3969F7F50 /* AIEvent.h */,
+				011029A712593B2508A6F858002C3F58 /* AIEvent.m */,
+				B8C065BE3766D0E042260B10B426F19E /* AIEventRequest.h */,
+				C64ADBFC7509FC6F274F1CA6F9F56793 /* AIEventRequest.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		27EF8D61EC7F07C93B2FB244180C0C58 /* ApiAI */ = {
+			isa = PBXGroup;
+			children = (
+				4A3F98434C40261F4F99F8056147C4B7 /* AudioFileConverter */,
+				A21D9797E9C28700ADE07B959EA92693 /* Core */,
+				163F7DEDB2DEF11736CEAEAA4B0BD3A9 /* Events */,
+				B3438C0DAA9C39B80E66E89B1916B02C /* ResponseMapping */,
+				137B5FA234977EC0CD076F736E7D0763 /* Support Files */,
+				63E862DC3FD3032BA873213766D1FBA4 /* UIKit */,
+				3F354AAFC4F240D2F3D90B682EE978F2 /* UserEntities */,
+				94A1CC2CCEC85CCA51A80880017C7EB3 /* VoiceFileRequest */,
+				61CA427E5C4013BF50B82F2BF0187F13 /* VoiceRequest */,
+			);
+			name = ApiAI;
+			path = ApiAI;
+			sourceTree = "<group>";
+		};
+		3F354AAFC4F240D2F3D90B682EE978F2 /* UserEntities */ = {
+			isa = PBXGroup;
+			children = (
+				1030AB27B515D0C458618215A3A88A76 /* AIUserEntitiesRequest.h */,
+				068758A6FB2268AD1370314E7D3CAF51 /* AIUserEntitiesRequest.m */,
+				36630C1A82AA6339FC98E8F410B1608F /* AIUserEntity.h */,
+				961F8EBC82554EFD97388E65886C2FF6 /* AIUserEntity.m */,
+				A50548B2EE5DA3F8477215363171D5B4 /* AIUserEntity_Private.h */,
+			);
+			name = UserEntities;
+			sourceTree = "<group>";
+		};
+		4A3F98434C40261F4F99F8056147C4B7 /* AudioFileConverter */ = {
+			isa = PBXGroup;
+			children = (
+				46DDDCFDE9604BB85F024182F6422930 /* AIAudioFileConvertOperation.h */,
+				104CD0711B1788AFB742DE705BF48C37 /* AIAudioFileConvertOperation.mm */,
+				1E21AA43168CDED11571CFAD6FD72101 /* AIAudioFileConvertOperationTypes.h */,
+				3E2ACBA96E1633384DA486C0EED42F91 /* AIAudioFileConvertOperationTypes.mm */,
+				7D98838111BBBE3F75369A3819624FE1 /* AIDataProcessInfo.cpp */,
+				3E8C1DE34B71FE6A14070AD4036EA461 /* AIDataProcessInfo.hpp */,
+			);
+			name = AudioFileConverter;
+			sourceTree = "<group>";
+		};
+		5321059C4268A977FDD8AB959F117AF0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F2255DBE0FD8AC9E2129C1D66193492 /* Pods-SmartChatBot */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F389B3DB9289646BA18202C6D4F8645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27EF8D61EC7F07C93B2FB244180C0C58 /* ApiAI */,
+				BC92C06796329EBC3170433F42F60A76 /* TLIndexPathTools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		617ED4D52C1D81637899B38DC4210068 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B118C3DBB30091BEC9914CAD986EFEB2 /* AICubeIconImage.png */,
+				0BF963CC75D6BC3047E8263A0BDB818C /* AICubeIconImage@2x.png */,
+				34C3C7B8534815C472B7767B4B9AE6AC /* AICubeIconImage@3x.png */,
+				309D95ABEBD6289BDF8382CA200F100F /* AIMicrophoneControlImage.png */,
+				8502D5C383611E6CE685331D62272575 /* AIMicrophoneControlImage@2x.png */,
+				E8B0E8FCD43781377C6083D32DA99744 /* AIMicrophoneControlImage@3x.png */,
+				2170A151945E362A8DDE6F791C1373EB /* AIVoiceRequestButton.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		61CA427E5C4013BF50B82F2BF0187F13 /* VoiceRequest */ = {
+			isa = PBXGroup;
+			children = (
+				20E61F82754C94ABF35D2561AF84766D /* AdaptiveThresold.h */,
+				FF155C9A25D139BFF712250EF4C9738C /* AdaptiveThresold.m */,
+				83C6862C107509125416355A4DCA57C6 /* AIAlgorithmDetector.h */,
+				9384D86FB6C20DF5435666F0B6A398D0 /* AIAlgorithmDetector.m */,
+				1714F4A06209A2E384AD9E365ADD0350 /* AIAlgorithmDetectorDelegate.h */,
+				4000B340508A867D5E9C53FA3CB126BA /* AIAlgorithmDetectorTypes.h */,
+				2D78EB1C78BE57E9403BDBA9195E9FED /* AIAudioUtils.c */,
+				A5A9FE2C61668FE6B55150F6F825AF0D /* AIAudioUtils.h */,
+				825DE0AB58FA08ED5F4554302BC044EA /* AIMeterTable.h */,
+				695137498588BA272F8B01B3C359BA69 /* AIMeterTable.m */,
+				BC74937FC6037F02EA9E08E0BDA2F536 /* AIRecordDetector.h */,
+				B3B5D9FCAA6565651DB7EF1E53C37D33 /* AIRecordDetector.m */,
+				CAFEED708003B23710200B53F54226B5 /* AIRecordDetectorDelegate.h */,
+				BA5F6E13163B7BFDDC40CD66B23EE3FE /* AISoundRecorder.h */,
+				A8813FB3053BEBBCD9A97CBD8B960F9C /* AISoundRecorder.m */,
+				D22034F84B1550CA0BFAD4B69AB58400 /* AISoundRecorderConstants.h */,
+				60F0BAAB0A1D48121B29F8A6CA330301 /* AISoundRecorderConstants.m */,
+				7E350DC7A918E07D9328B73D748FEC42 /* AISoundRecorderDelegate.h */,
+				3ED40411972469BCA2B8E081DDA8640B /* AIVoiceRequest.h */,
+				55912A3EA1DC2255ACA605589FCF901D /* AIVoiceRequest.m */,
+				D2A6188E99FD8AC9CD0121747BD58F2B /* EnergyAndZeroCross.h */,
+				4BA8A8E5D30E341E266DF4D5C35E4689 /* EnergyAndZeroCross.m */,
+				A6DF0E59DD0693673BBF61504C11867F /* Resources */,
+			);
+			name = VoiceRequest;
+			sourceTree = "<group>";
+		};
+		63E862DC3FD3032BA873213766D1FBA4 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				06EF313E20611EFEA48C9A275DD3EE2B /* AIEllipseView.h */,
+				924D3C34CFA41A28E2E9C8CBB7DAD1A9 /* AIEllipseView.m */,
+				79A607F90EA8C0EB8F87152F9DF8222C /* AIProgressView.h */,
+				AC89BC91CC9C4576C63AAF77110B7CC0 /* AIProgressView.m */,
+				C7FCFA82516CA65E45BE15F7788BFF39 /* AIVoiceContainerView.h */,
+				EEBDB6533CC8B2D8015A26155B8F1ABF /* AIVoiceContainerView.m */,
+				817D9A5DAF1A0D78FF2F7959090EB168 /* AIVoiceLevelView.h */,
+				F983C4E5B1A93A630AF7E8F67E9F7B87 /* AIVoiceLevelView.m */,
+				9A90B2A69A253294F8EB2B720AE74599 /* AIVoiceRequestButton.h */,
+				F6848D5180FEEE25F74EDAD6643D210A /* AIVoiceRequestButton.m */,
+				617ED4D52C1D81637899B38DC4210068 /* Resources */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				5F389B3DB9289646BA18202C6D4F8645 /* Pods */,
+				0D96216F8E6EBD756D13FC1D3F9B6E73 /* Products */,
+				5321059C4268A977FDD8AB959F117AF0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F21D2860A299A55593A3FE1F902A19D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4468E7678D1A046E24680C11C7967BE7 /* Info.plist */,
+				AF744A31643C33B6B7128B5DD3D07C74 /* TLIndexPathTools.modulemap */,
+				CEB000CBEDB270240C76CD3641D69442 /* TLIndexPathTools.xcconfig */,
+				00B0444D943D02EB4AEB06DA6AABEA38 /* TLIndexPathTools-dummy.m */,
+				C6F1908BA028E888EB833C04C133E453 /* TLIndexPathTools-prefix.pch */,
+				6F410291EFC7B10375A69EC03DC02017 /* TLIndexPathTools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLIndexPathTools";
+			sourceTree = "<group>";
+		};
+		8E9F70C2ACEFB492CBD8F0A6C433D0F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0F18A60922A1A68C3796EE4DAA7F50C7 /* AudioToolbox.framework */,
+				E60C5ED740A006213AAC2717296BE8EC /* AVFoundation.framework */,
+				60CAB02C84C9BFABD5C995AA62EEB678 /* CoreData.framework */,
+				4555770DB63B3E2D7F0DD721D678C336 /* Foundation.framework */,
+				28CA6BBC6BA65F7CA3EAE689C3D1E98D /* QuartzCore.framework */,
+				BE1175A8E77A2EC6FB44180221AEA18E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		94A1CC2CCEC85CCA51A80880017C7EB3 /* VoiceFileRequest */ = {
+			isa = PBXGroup;
+			children = (
+				698A42E9938BA8864D64FEAD0A13C0BA /* AIVoiceFileRequest.h */,
+				1122177B243AC85B5C99398A77A51139 /* AIVoiceFileRequest.m */,
+				7492761E9686A21785CD8C66F23515D4 /* AIVoiceFileRequest_Private.h */,
+			);
+			name = VoiceFileRequest;
+			sourceTree = "<group>";
+		};
+		9F2255DBE0FD8AC9E2129C1D66193492 /* Pods-SmartChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				C3BFA996A8A56A4F59C6475E9362F116 /* Info.plist */,
+				03A2DFE138EBF6EE32BCA3E36DE04344 /* Pods-SmartChatBot.modulemap */,
+				60303332DC1CD3D37A84D5CFEC63284E /* Pods-SmartChatBot-acknowledgements.markdown */,
+				9B7C67FCCA26C910CBBE6FADD3EDDC3E /* Pods-SmartChatBot-acknowledgements.plist */,
+				E04F6110B3997E886B4AA8D3F6082159 /* Pods-SmartChatBot-dummy.m */,
+				2B7BCAB23EFD14E505D0580FC30ACE8D /* Pods-SmartChatBot-frameworks.sh */,
+				1250717BB791FDCDA743CF32ECFA690D /* Pods-SmartChatBot-resources.sh */,
+				F2957CECEAC7D9C14636437106E5A2B2 /* Pods-SmartChatBot-umbrella.h */,
+				93817BFD982CDE2070F54F7A5085BC86 /* Pods-SmartChatBot.debug.xcconfig */,
+				29AAA982306C56DF6F781E2043668EDB /* Pods-SmartChatBot.release.xcconfig */,
+			);
+			name = "Pods-SmartChatBot";
+			path = "Target Support Files/Pods-SmartChatBot";
+			sourceTree = "<group>";
+		};
+		A21D9797E9C28700ADE07B959EA92693 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7AE776C338E25B028BB14EA22F6B1EF7 /* AIConfiguration.h */,
+				E37A2CD2D82B941861C83E5A20CB9409 /* AIDataService.h */,
+				A94B03900EEE43B364329AE6E2AB778B /* AIDataService.m */,
+				54DBF70FB2952B7A7CCC4C7F8A757528 /* AIDataService_Private.h */,
+				2C05BDA952C68F5CC42B8BA8BB1F9635 /* AIDefaultConfiguration.h */,
+				FE4255FD24848407C89BA5FAB393363C /* AIDefaultConfiguration.m */,
+				EA047385864D9380098C4DDE48D0207D /* AINullabilityDefines.h */,
+				D7062758F239F8E90ABD401DF7E441ED /* AIOriginalRequest.h */,
+				5413CD97C0C824F9A436716CCF0C89A2 /* AIOriginalRequest.m */,
+				2D5516F021015580EBBF697950F0BC94 /* AIOriginalRequest_Private.h */,
+				1438FF90F167390BE2AFF38495ED0588 /* AIQueryRequest.h */,
+				50B13B309DB658049D508A0DA5CF4200 /* AIQueryRequest.m */,
+				CD451E01D4396E11DD38AF0E2CC0FB98 /* AIQueryRequest+Private.h */,
+				58589D9D81900580365AD56CF1F6A16C /* AIQueryRequest+Private.m */,
+				03AB691FF9245D88BAC573DC9130D945 /* AIRequest.h */,
+				481CB66200C13923A533C4ECF4425371 /* AIRequest.m */,
+				DD89D859A6A7B40A47C4697270FA727F /* AIRequest_Private.h */,
+				728F4D1D32A768E63387666F908F6DC5 /* AIRequestContext.h */,
+				C6DAF3B5FBD676FCA7BE9000C8C024F3 /* AIRequestContext.m */,
+				DC10F45E824A1547006CE0A330294AB7 /* AIRequestEntity.h */,
+				C2D6367D08921F41B5F1BC7C14D308F0 /* AIRequestEntity.m */,
+				4F580F526837BD770AF2B0D722AEBD11 /* AIRequestEntity_Private.h */,
+				171A5F2EF9320A77AF596D8B32F71775 /* AIRequestEntry.h */,
+				6F1F42B09446E9C8949DA82030E8F3D2 /* AIRequestEntry.m */,
+				689734A448E02340DE6773E930CD7CF3 /* AIResponseConstants.h */,
+				0D2D15094C528B9B25A72547B70534FB /* AIResponseConstants.m */,
+				DA202FF4CD86A9DBF21009559B3D4C8D /* AISessionIdentifierStorage.h */,
+				8C725E35BD9CADF41AECA4BBB5D5FD8A /* AISessionIdentifierStorage.m */,
+				DFA95A4B9738039AEEF0A2EDBFE43B7B /* AIStreamBuffer.h */,
+				6A797DC7BB6B38A9B73201E6D8A00199 /* AIStreamBuffer.m */,
+				273071FF19280885F3C9E7CCBD86C9DE /* AIStreamBufferDelegate.h */,
+				878FB876883751650F979FFAE927337D /* AITextRequest.h */,
+				70D2303C0601DDF2EE9839E95B848D08 /* AITextRequest.m */,
+				80F0014921E31306E04E3E0F52FB7340 /* ApiAI.h */,
+				F7C510E93E0D42E1A57C7F9DE1783A0D /* ApiAI.m */,
+				40A51FA69AE16CCD4315A6AD4E4235ED /* ApiAI_ApiAI_Private.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A6DF0E59DD0693673BBF61504C11867F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FCECAF38CD44078AA49094F37A171AA /* beep.caf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B3438C0DAA9C39B80E66E89B1916B02C /* ResponseMapping */ = {
+			isa = PBXGroup;
+			children = (
+				A724275B31CB207B4E9BBA560E9CC76D /* AIDatePeriodFormatter.h */,
+				3FE36F1CFF2F609A641C02EDFC51F4BF /* AIDatePeriodFormatter.m */,
+				1BE1241E3AA450537A4DB34589EF8971 /* AIRequest+AIMappedResponse.h */,
+				5EEBC4397091DC8FA8CF2F5AA680DAA9 /* AIRequest+AIMappedResponse.m */,
+				4E730FFD1FFB59BB5BCA0DBDF4DAE05E /* AIResponse.h */,
+				F691DBACF9591683D0B0CC92EFEA995E /* AIResponse.m */,
+				283735424B9057166119A4378EA076DA /* AIResponseContext.h */,
+				8641A695AA16DD4F392502503C9149CD /* AIResponseContext.m */,
+				DC26947883196F285444A557B495FDC0 /* AIResponseContext_Private.h */,
+				40D7E6BE82D0B8EB7D850FFE1B8AD8D2 /* AIResponseFulfillment.h */,
+				5A249B40D68D05F8ADBD5F232D98E607 /* AIResponseFulfillment.m */,
+				BF2596BC690F4F60B3393AB59F3ADD57 /* AIResponseFulfillment_Private.h */,
+				D7526C5C37C2784D4419B5349427088E /* AIResponseMetadata.h */,
+				9F9B45ADF3D7E540F49A26DAAD11CBDD /* AIResponseMetadata.m */,
+				068CA98291BC6DD42658EED641D5D0FA /* AIResponseMetadata_Private.h */,
+				81A97B7B1B6D3C97EE7902A6E6A10917 /* AIResponseParameter.h */,
+				334B42F96454BDF8886DF0C71F505BF7 /* AIResponseParameter.m */,
+				ADA6AF3E3A9BEE696CEF269D5C8814C3 /* AIResponseParameter_Private.h */,
+				388DF205795DA12C3193D155B0648389 /* AIResponseParameterConstants.h */,
+				A20C0E94D932C655A8894AA68A887586 /* AIResponseParameterConstants.m */,
+				8BA1D6C772004B87900542866134237C /* AIResponseResult.h */,
+				D45372EF004A38ABB6CA2648BB7BD373 /* AIResponseResult.m */,
+				DB12DF9563287D7753FE565AABB1CDF6 /* AIResponseResult_Private.h */,
+				B366EDA3EDA4A8B23D9F35E12235F498 /* AIResponseStatus.h */,
+				B14DF89DE89E10A6879135BED5FE19BE /* AIResponseStatus.m */,
+				1B6C2AAEB79FD552D3C5E14B6AA6B694 /* AIResponseStatus_Private.h */,
+			);
+			name = ResponseMapping;
+			sourceTree = "<group>";
+		};
+		BC92C06796329EBC3170433F42F60A76 /* TLIndexPathTools */ = {
+			isa = PBXGroup;
+			children = (
+				90414B19A1D33F37D328C3AC1E1EC73C /* TLCollapsibleDataModel.h */,
+				2FFDB62D5439944928EE39A59AFE4AE1 /* TLCollapsibleDataModel.m */,
+				FA7FB1B68B1A37FAA8A7A09F66FD3CCF /* TLCollapsibleHeaderView.h */,
+				86AAAC91865ABD7869B2593976D4FF96 /* TLCollapsibleHeaderView.m */,
+				FD2D42F0530DC2DA6C8B32720B5611AC /* TLCollapsibleTableViewController.h */,
+				80BBCEC49257B89358A4153B05566ED5 /* TLCollapsibleTableViewController.m */,
+				91F47AEEA473D3F0129C5C270A565983 /* TLCollectionViewController.h */,
+				057FC21A51AD7B58D0F3D446152BD5F0 /* TLCollectionViewController.m */,
+				F12D99D1BA517D5C1F769F29B9396BA5 /* TLDynamicHeightCell.h */,
+				7BE73D426F39AA0732A508DAB3DAB521 /* TLDynamicHeightCell.m */,
+				9CAD2FC3B6CBB5963EE4FD2BC2FA4F66 /* TLDynamicHeightLabelCell.h */,
+				FFD1A36ABB4F6B2C37E5562601A24DD7 /* TLDynamicHeightLabelCell.m */,
+				5A0CAADED0C1850B3DE7AF02F7EEB7E1 /* TLDynamicSizeView.h */,
+				F54C756542A5C803BE5D6674519506FB /* TLIndexPathController.h */,
+				6DC213B610967B66E5E2EC8BB80F9711 /* TLIndexPathController.m */,
+				E54415C6BE45F56DD81A2F64928D7213 /* TLIndexPathDataModel.h */,
+				6BD845108C78C0F3C9BDA06D7E5F56F3 /* TLIndexPathDataModel.m */,
+				2A0506D524B98DE57B02E6AF93F7A045 /* TLIndexPathItem.h */,
+				6758D2880684F80FEFE7FB8060FDC3FD /* TLIndexPathItem.m */,
+				D4DECE042D3812128FE91C6A6934F85C /* TLIndexPathSectionInfo.h */,
+				0E8F3922BD5B3D7E6523ACF5517C7FA3 /* TLIndexPathSectionInfo.m */,
+				C5C0ECD13D7294381223BFD3C195BF1D /* TLIndexPathTools.h */,
+				2A28F26ECF789FB1D21D75EB2B7EB39E /* TLIndexPathTreeItem.h */,
+				5843521BFCA7516485AED7FF7C588E59 /* TLIndexPathTreeItem.m */,
+				B77AC646C39B1A27A9181183D86550BC /* TLIndexPathUpdates.h */,
+				00C79378B0B40A2FA164E2C7AFE719FB /* TLIndexPathUpdates.m */,
+				1C4241A554348856805DB453DE2662CE /* TLNoResultsTableDataModel.h */,
+				2D8D43EB86C256645AD3F5550A82CCDF /* TLNoResultsTableDataModel.m */,
+				658C60781AE8BB95EB6918A5082D5C2E /* TLTableViewController.h */,
+				4735D34B55F699FD291B9110A90E99B3 /* TLTableViewController.m */,
+				EF028817A4DE00238D4D33A6FCC63250 /* TLTreeDataModel.h */,
+				DAFB3146D5AA832E4DC0D13CD69ACBB6 /* TLTreeDataModel.m */,
+				DD64C9653720C050F18EA1FAB3F14FFF /* TLTreeTableViewController.h */,
+				D059182AAA0EB7B518ED455626E4EBC4 /* TLTreeTableViewController.m */,
+				B85A0641FDD9095CFA137E473726FE9C /* UITableView+ScrollOptimizer.h */,
+				B741508E4B5A9D4463E8ED522A5C212C /* UITableView+ScrollOptimizer.m */,
+				723324E9F0799D40C523B709E9C2B972 /* UITableViewController+ScrollOptimizer.h */,
+				423961A7C913BB22C20FD1253D42A355 /* UITableViewController+ScrollOptimizer.m */,
+				7F21D2860A299A55593A3FE1F902A19D /* Support Files */,
+			);
+			name = TLIndexPathTools;
+			path = TLIndexPathTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D3BCD06CF15B304A8D9467F5D4F04C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632D672059C003FB1BA7EEC61DF57DF8 /* AdaptiveThresold.h in Headers */,
+				47FD466CC20F2201426CCA068616160A /* AIAlgorithmDetector.h in Headers */,
+				EE91B9C0CB104F4C7F6B1DB5BC5EAA22 /* AIAlgorithmDetectorDelegate.h in Headers */,
+				680EE70E24EC357EAE685AFB1488892C /* AIAlgorithmDetectorTypes.h in Headers */,
+				13DCB2467E762C5F3254F5DA0AC61B03 /* AIAudioFileConvertOperation.h in Headers */,
+				D423B212D9BC4C90AE2B11FB25844E7F /* AIAudioFileConvertOperationTypes.h in Headers */,
+				657B9185BB7E080F586B778FB79E589D /* AIAudioUtils.h in Headers */,
+				00AED20FA4352D463746FA67415E42D7 /* AIConfiguration.h in Headers */,
+				0D665199DAFEAEF7E09DF7EC0AAB5170 /* AIDataProcessInfo.hpp in Headers */,
+				423821ABE430846F9402DADDD8AC1C85 /* AIDataService.h in Headers */,
+				652FB4FAA6404377E7799EA5D045DF35 /* AIDataService_Private.h in Headers */,
+				12E0CCDAD282B094308362E58374F435 /* AIDatePeriodFormatter.h in Headers */,
+				0FC94618DC199591160E634A75F57675 /* AIDefaultConfiguration.h in Headers */,
+				1329EF938D367C778FCA268A6B7BB02B /* AIEllipseView.h in Headers */,
+				38876690B810E03F068FDD0A8CF83899 /* AIEvent.h in Headers */,
+				B0FB9DB4242B68792F87A1B840A7F603 /* AIEventRequest.h in Headers */,
+				FD9EDC2B14134715222B01F0BB2BBD1F /* AIMeterTable.h in Headers */,
+				AE3B99BD171EE01B99A60DA76EB4D09C /* AINullabilityDefines.h in Headers */,
+				72215BD358E64F0E427C2510E7A21B91 /* AIOriginalRequest.h in Headers */,
+				C2FD753318295C5BF51367E574FCB806 /* AIOriginalRequest_Private.h in Headers */,
+				C5D331727A8034EFD35890326006290A /* AIProgressView.h in Headers */,
+				D7A6B744784A15C260CC10763B9E8037 /* AIQueryRequest+Private.h in Headers */,
+				24274F194A9F57F6F260F6362A90B26B /* AIQueryRequest.h in Headers */,
+				607C5525F426B17FACEB7125C4593679 /* AIRecordDetector.h in Headers */,
+				093DD4378467461C6A7763579CFCCD8E /* AIRecordDetectorDelegate.h in Headers */,
+				C974AB7949133D5F1986FE487B7D62CF /* AIRequest+AIMappedResponse.h in Headers */,
+				EDFE6F0F2B0A2B38BCAFB015503163B2 /* AIRequest.h in Headers */,
+				DB5F79E44BD2B214FE3084373930C746 /* AIRequest_Private.h in Headers */,
+				D92E4C10C94D4B02B6B3DD04A5B08224 /* AIRequestContext.h in Headers */,
+				DD48872299ECFF457E15258F925CF53C /* AIRequestEntity.h in Headers */,
+				1CD99D9AAB95C89F7063767B88D41105 /* AIRequestEntity_Private.h in Headers */,
+				00CA0676C6845B58B16CDCE94252572C /* AIRequestEntry.h in Headers */,
+				3321E9ACE9B7268748294C3DF11DCB17 /* AIResponse.h in Headers */,
+				12CB21C94051AD2543E425DD813889AC /* AIResponseConstants.h in Headers */,
+				01DB970F60E67E94EDFC395451C43871 /* AIResponseContext.h in Headers */,
+				4574B5CE3242AC5F22E06A9FEDA9FC9F /* AIResponseContext_Private.h in Headers */,
+				78DD9EAB4ED55E8B9CD2EA69C27BB804 /* AIResponseFulfillment.h in Headers */,
+				FBEFDE04EED06BAEE1CB4A33834FCDA8 /* AIResponseFulfillment_Private.h in Headers */,
+				A903AB30DC7AC305AD9FDBC2EB729463 /* AIResponseMetadata.h in Headers */,
+				B1DE9FBCC22BA042C66153DFBE6EB4AC /* AIResponseMetadata_Private.h in Headers */,
+				D079A62670A60D6B596482EEA77C10B9 /* AIResponseParameter.h in Headers */,
+				BC48B41F5C62BF1AF2F10F710DEE2D4B /* AIResponseParameter_Private.h in Headers */,
+				3F66B9A338CC511BDA956354CEF1B5A3 /* AIResponseParameterConstants.h in Headers */,
+				F24F8C8C4794C82B9C2BECC83A8E9A48 /* AIResponseResult.h in Headers */,
+				9FDADC2EEEFD0A52DAF512C9D7B38DFD /* AIResponseResult_Private.h in Headers */,
+				A4B4222A820A1836A4D48EDCBB62BA3A /* AIResponseStatus.h in Headers */,
+				99E51FB0CF6CF0DECA81AC2BD956BD1E /* AIResponseStatus_Private.h in Headers */,
+				38E94D60DF4EB7365F7C0CE94ED2AF5C /* AISessionIdentifierStorage.h in Headers */,
+				71D8617EB7B3913E88124285066A9927 /* AISoundRecorder.h in Headers */,
+				B93EF129F2E7B4F34B35E7EBCE77216A /* AISoundRecorderConstants.h in Headers */,
+				A45D6DB1D01654F80B84D134DB4E8CD3 /* AISoundRecorderDelegate.h in Headers */,
+				71E1AE744F235E097AFBF27A2CC18AF0 /* AIStreamBuffer.h in Headers */,
+				FB90CC6D4ACEB42D890A318F26A78D5A /* AIStreamBufferDelegate.h in Headers */,
+				D549DE0359025F0DD6AA4C293863131C /* AITextRequest.h in Headers */,
+				5FC8E7ABCBBEB659A2D64896A9CBAB22 /* AIUserEntitiesRequest.h in Headers */,
+				0EB4D396184EEB9EABE828A8EC7E2DAD /* AIUserEntity.h in Headers */,
+				A7836A60B9AA4F7670E3DB6F1D9377E4 /* AIUserEntity_Private.h in Headers */,
+				093ED548B8EC02E127FE8A9A44080DCC /* AIVoiceContainerView.h in Headers */,
+				210F975040E18C4FD571391C9F0FFB5C /* AIVoiceFileRequest.h in Headers */,
+				42DEB81EBB6A5F792EAE37D0C230DF60 /* AIVoiceFileRequest_Private.h in Headers */,
+				EA357399D00C5A478195EACF014CF774 /* AIVoiceLevelView.h in Headers */,
+				0D03D28A58761F3848D0D988F235C920 /* AIVoiceRequest.h in Headers */,
+				936BAEEED7D6A9665411B6DB55916955 /* AIVoiceRequestButton.h in Headers */,
+				B5F78EBA47165BECF4FEBE71033C44D0 /* ApiAI-umbrella.h in Headers */,
+				51823A52F96F44ECA5F16C73ED95701C /* ApiAI.h in Headers */,
+				F4EE7441C0013291B91C84296509EC82 /* ApiAI_ApiAI_Private.h in Headers */,
+				2008D3E4BB7B4C7677884A89EB6435BF /* EnergyAndZeroCross.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A87EAD144A1B1B9A9E25DA9B343930D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9705F7A5D74DB9715B7C139E02EFC689 /* Pods-SmartChatBot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75665FCC3B964300C7DB45B2B499B6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2EFB947C80BA7CD0FBA0F87FBE3F8C /* TLCollapsibleDataModel.h in Headers */,
+				55487EED2EAD341A938DB7BAD95BA691 /* TLCollapsibleHeaderView.h in Headers */,
+				E01F68D3151565010870E6393B9711F8 /* TLCollapsibleTableViewController.h in Headers */,
+				F99F89D490087631DA8F41F86FF92EDB /* TLCollectionViewController.h in Headers */,
+				EE711EA56FA47910C4C445DBADBDEF1F /* TLDynamicHeightCell.h in Headers */,
+				B097F69C7692841D0A9EC3368C51D91C /* TLDynamicHeightLabelCell.h in Headers */,
+				FA316C42C48B73EB2A033D4B007BA1E8 /* TLDynamicSizeView.h in Headers */,
+				8025D51AE77A32E68FBD36F013BF0EA9 /* TLIndexPathController.h in Headers */,
+				1BB0D10E1D00E339A45C18502EB6E2A0 /* TLIndexPathDataModel.h in Headers */,
+				ACD731DF8090665A4FCBE1DA06311D6E /* TLIndexPathItem.h in Headers */,
+				2C046359BFFDB7C0BDDB212D47A89244 /* TLIndexPathSectionInfo.h in Headers */,
+				4D020931671894EB3806A61F7B39873F /* TLIndexPathTools-umbrella.h in Headers */,
+				0992C2C2500F68B05834AFDA6C5AFC34 /* TLIndexPathTools.h in Headers */,
+				DEDD3D29C1EEF92576EBF1A7D8E4064C /* TLIndexPathTreeItem.h in Headers */,
+				18484A51766644C4EA1CD1A0B9C509E8 /* TLIndexPathUpdates.h in Headers */,
+				3C193398E20B6A9AD4AF16AE99B5DF69 /* TLNoResultsTableDataModel.h in Headers */,
+				A86148B2868122282D54C3780E1F6622 /* TLTableViewController.h in Headers */,
+				D3B38527FCED5E1B334F91373C6C0599 /* TLTreeDataModel.h in Headers */,
+				97F1CE34DEFCAF5ADAA0F2B6B502890D /* TLTreeTableViewController.h in Headers */,
+				EFD8395967BF3BAB550F20D195E6FE83 /* UITableView+ScrollOptimizer.h in Headers */,
+				C7B6C3A3C487FC42A3107BD6B4E604B7 /* UITableViewController+ScrollOptimizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA062F847DFBF9900BAC732C27CE7110 /* Pods-SmartChatBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8533A88D6AFFAA5C5AE1CDBFC04E7CF3 /* Build configuration list for PBXNativeTarget "Pods-SmartChatBot" */;
+			buildPhases = (
+				648C4F66B6EF719D66A160614BC01A6D /* Sources */,
+				A0E9A348EB74E5D058AA668236DEF94E /* Frameworks */,
+				9A87EAD144A1B1B9A9E25DA9B343930D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91967E8B15D6F91FE2DD18B6E5DDC3E6 /* PBXTargetDependency */,
+				608DBC87152EFC214C0639B4305BFC17 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartChatBot";
+			productName = "Pods-SmartChatBot";
+			productReference = 162020B8AC02DB3E74E83F8C7C03C67D /* Pods_SmartChatBot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C321297C3045A2D34570469CAEF11B8A /* ApiAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973D31C586D80BD0EDCD4FCCEE10E75C /* Build configuration list for PBXNativeTarget "ApiAI" */;
+			buildPhases = (
+				BC8B44CD8705C1B81BD8A50B5D66B219 /* Sources */,
+				3ED7F5B471324A13AC619F43A857BBD1 /* Frameworks */,
+				0D3BCD06CF15B304A8D9467F5D4F04C1 /* Headers */,
+				CB781DD79D8572386316E1B11EA70EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApiAI;
+			productName = ApiAI;
+			productReference = 00AC5544FF98B666462AE3612F2A5BC5 /* ApiAI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECB182556B789D160DC80461B2384CAD /* TLIndexPathTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9CC42655766C1276B46584993D42A5 /* Build configuration list for PBXNativeTarget "TLIndexPathTools" */;
+			buildPhases = (
+				11E68621AEA354F6106DCF3F4D0087D2 /* Sources */,
+				9DB75B39AF2A77374793C378E0F69072 /* Frameworks */,
+				C75665FCC3B964300C7DB45B2B499B6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLIndexPathTools;
+			productName = TLIndexPathTools;
+			productReference = C0939256BAC1DD674B331E0172F92ECE /* TLIndexPathTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D96216F8E6EBD756D13FC1D3F9B6E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C321297C3045A2D34570469CAEF11B8A /* ApiAI */,
+				AA062F847DFBF9900BAC732C27CE7110 /* Pods-SmartChatBot */,
+				ECB182556B789D160DC80461B2384CAD /* TLIndexPathTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB781DD79D8572386316E1B11EA70EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2163FA24BD6EE9D17251DC6E8035EE /* AICubeIconImage.png in Resources */,
+				9F8632A11F44148663217ABB2E8A0BA9 /* AICubeIconImage@2x.png in Resources */,
+				B744982D22EC4478C1EC8A52D0C0361A /* AICubeIconImage@3x.png in Resources */,
+				4F5760C53D27100332A4B3203C2845D0 /* AIMicrophoneControlImage.png in Resources */,
+				64135A6D51F0E53C7954BB53EB02190B /* AIMicrophoneControlImage@2x.png in Resources */,
+				30F000DE4A7A874BD5012ABCB4FE571B /* AIMicrophoneControlImage@3x.png in Resources */,
+				C4D970802EF87BD6C7FD4FB8AE8B0E11 /* AIVoiceRequestButton.xib in Resources */,
+				75C431C21FE51CEC87D84BF71AD38A2B /* beep.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E68621AEA354F6106DCF3F4D0087D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C2F422A6785BFCD272D6BC6E38D376 /* TLCollapsibleDataModel.m in Sources */,
+				EEC6A475EA1567587001774BC2F37FA7 /* TLCollapsibleHeaderView.m in Sources */,
+				37EA9D34B99A07F66972B2395CAC474A /* TLCollapsibleTableViewController.m in Sources */,
+				8468E5D41106E618EEC905A9FF740C20 /* TLCollectionViewController.m in Sources */,
+				FF4630DA7E09C808C7F9338D117D87CE /* TLDynamicHeightCell.m in Sources */,
+				B890BFA57D24CCDC5E76619299F5A901 /* TLDynamicHeightLabelCell.m in Sources */,
+				298529D89A07E649A11727A3568F0838 /* TLIndexPathController.m in Sources */,
+				2B8B83F7FA42A6933457A21DABB197E9 /* TLIndexPathDataModel.m in Sources */,
+				EB2AB5F66866371406D1D5F23EA8C3E5 /* TLIndexPathItem.m in Sources */,
+				1193E79403BE1FDBBA1E688684DF34C9 /* TLIndexPathSectionInfo.m in Sources */,
+				A9972F269FF7058A6A126FD744D63D43 /* TLIndexPathTools-dummy.m in Sources */,
+				D6DBAC6F344EFC88C4CAEF8C2FF05F39 /* TLIndexPathTreeItem.m in Sources */,
+				87E8C15430F4C4DC4986CDEBB726F1DF /* TLIndexPathUpdates.m in Sources */,
+				6044C04B67A36852F1219D19F115E8D2 /* TLNoResultsTableDataModel.m in Sources */,
+				4E66E8F886EF2C5C0C839B934E3D0240 /* TLTableViewController.m in Sources */,
+				0DFA449131D6D698579333037E0E7DCF /* TLTreeDataModel.m in Sources */,
+				1BA3477C3593180188D4BC01A2E2A8FA /* TLTreeTableViewController.m in Sources */,
+				B0652E491B3237BFE5D68C040D53437E /* UITableView+ScrollOptimizer.m in Sources */,
+				624C4D7AA92A929563056ABB485FA326 /* UITableViewController+ScrollOptimizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648C4F66B6EF719D66A160614BC01A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44BF021270FB3F94C321036A56C1D47 /* Pods-SmartChatBot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8B44CD8705C1B81BD8A50B5D66B219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F2740175A20BC7CFB263415054FC2C /* AdaptiveThresold.m in Sources */,
+				97655CF733E98C9ACA8F0C8D50A229D3 /* AIAlgorithmDetector.m in Sources */,
+				3AEC0C5AD4F0F641BC46E31CCBCB92A7 /* AIAudioFileConvertOperation.mm in Sources */,
+				0C9DE00ADB8346BFB1D46474E3949D7C /* AIAudioFileConvertOperationTypes.mm in Sources */,
+				F19B9098F7B9548B827553401AE01ABD /* AIAudioUtils.c in Sources */,
+				64E21A82448068144C6AF2059423B5DA /* AIDataProcessInfo.cpp in Sources */,
+				09B6C54979C051DDA51A7BD3CA94A467 /* AIDataService.m in Sources */,
+				D2BB6BA29B5B4D4EF92038A484E02ED8 /* AIDatePeriodFormatter.m in Sources */,
+				8E83A6425265027F1E7780F41496E025 /* AIDefaultConfiguration.m in Sources */,
+				945EFFEC752219FF0B8B3CA57A4EF7F0 /* AIEllipseView.m in Sources */,
+				9074F7E721848BDC2D9152BD1441E532 /* AIEvent.m in Sources */,
+				6471CA13DE277C028F5C7596EF4E9BB7 /* AIEventRequest.m in Sources */,
+				6DEB9B43E58409DF806F7BE6EAF102C2 /* AIMeterTable.m in Sources */,
+				B3D8186FAFDAC4596CC29FCF8658173A /* AIOriginalRequest.m in Sources */,
+				FE76AC2681BC44A24D5CB55209806E96 /* AIProgressView.m in Sources */,
+				7B4A0D29A0E5A8A4A67895991E592E01 /* AIQueryRequest+Private.m in Sources */,
+				34B9696F98D1AE30763395210BFA3780 /* AIQueryRequest.m in Sources */,
+				DD4EAF0849A49F935532D1FE1E32B78B /* AIRecordDetector.m in Sources */,
+				DBEB9EFA90233CC2481385814579A645 /* AIRequest+AIMappedResponse.m in Sources */,
+				D81799426FCC1CC992154F7E118BC191 /* AIRequest.m in Sources */,
+				940493A49FE1F8F7826957348D4987F8 /* AIRequestContext.m in Sources */,
+				0C24320D1AF2D071234624795B854305 /* AIRequestEntity.m in Sources */,
+				A1C0BC8FBDD4FD00B9443551A41152A3 /* AIRequestEntry.m in Sources */,
+				181EB3BA97FB76B26EA2381D7CD5DE63 /* AIResponse.m in Sources */,
+				C467A174732308AF5C47CA987FC084AB /* AIResponseConstants.m in Sources */,
+				E96AE965B08DD8D0C343C304882CDA68 /* AIResponseContext.m in Sources */,
+				F5956A4C9C3D240A72D017309BAC7C88 /* AIResponseFulfillment.m in Sources */,
+				747D6F127B24A0B9AEF5FF26A2F371D1 /* AIResponseMetadata.m in Sources */,
+				52BAE976A89C308008B1887253654A9F /* AIResponseParameter.m in Sources */,
+				78077172D74E2EEC77B3AC1906D98455 /* AIResponseParameterConstants.m in Sources */,
+				B5B09BC3F8B3F0BD5A63D7D27F2F1B79 /* AIResponseResult.m in Sources */,
+				3D42AEDCD8A22532E4964DCFB377502F /* AIResponseStatus.m in Sources */,
+				018A1A775F886E7CB1B28E9E2BAC4A32 /* AISessionIdentifierStorage.m in Sources */,
+				9BB185E0E8626EF255470B0CE3D37298 /* AISoundRecorder.m in Sources */,
+				1BC6C1E36600B1030E6CAC0E32F09EA2 /* AISoundRecorderConstants.m in Sources */,
+				5E3BFA436093F1333F512AE232B5F4B6 /* AIStreamBuffer.m in Sources */,
+				C6E24AB97958595CD5830FAB02E6582D /* AITextRequest.m in Sources */,
+				6FB76743909BF080CAFC0138E42E28C3 /* AIUserEntitiesRequest.m in Sources */,
+				B3F7D9C6E44BE074A1FA14A3D5F3BAA8 /* AIUserEntity.m in Sources */,
+				5C0FD9ABF8AEC529C7FCB788D4C383F5 /* AIVoiceContainerView.m in Sources */,
+				01F26FF4FB3AAF496938F786BD6F27F4 /* AIVoiceFileRequest.m in Sources */,
+				74C86F274FC2D19AF7E2D323C1382BED /* AIVoiceLevelView.m in Sources */,
+				3BF6D7BF69AF9DAB260D1FB625FAFE84 /* AIVoiceRequest.m in Sources */,
+				E668F71A40750D9C2D6FA3A569849771 /* AIVoiceRequestButton.m in Sources */,
+				53A5B2694DB60AB5E4303B46552AF359 /* ApiAI-dummy.m in Sources */,
+				1704742541D881025763522BE4A7000D /* ApiAI.m in Sources */,
+				2296900D4A3100528223330C6F8D055D /* EnergyAndZeroCross.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		608DBC87152EFC214C0639B4305BFC17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLIndexPathTools;
+			target = ECB182556B789D160DC80461B2384CAD /* TLIndexPathTools */;
+			targetProxy = F0F3403E815A36C90E3A792E51E24984 /* PBXContainerItemProxy */;
+		};
+		91967E8B15D6F91FE2DD18B6E5DDC3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ApiAI;
+			target = C321297C3045A2D34570469CAEF11B8A /* ApiAI */;
+			targetProxy = E2467A7424B3DF35713C317DCC3E3A59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017A30B081881D55C7EB3BE36DBCBA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB000CBEDB270240C76CD3641D69442 /* TLIndexPathTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLIndexPathTools/TLIndexPathTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLIndexPathTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLIndexPathTools/TLIndexPathTools.modulemap";
+				PRODUCT_MODULE_NAME = TLIndexPathTools;
+				PRODUCT_NAME = TLIndexPathTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		088CC4C17CBFC487457AC7061AF137BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93817BFD982CDE2070F54F7A5085BC86 /* Pods-SmartChatBot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartChatBot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartChatBot/Pods-SmartChatBot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B8B5463DB54388CEDB1E32B47A649F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AAA982306C56DF6F781E2043668EDB /* Pods-SmartChatBot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartChatBot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartChatBot/Pods-SmartChatBot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1E928E93F828C9081FC27929A3A1F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB000CBEDB270240C76CD3641D69442 /* TLIndexPathTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLIndexPathTools/TLIndexPathTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLIndexPathTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLIndexPathTools/TLIndexPathTools.modulemap";
+				PRODUCT_MODULE_NAME = TLIndexPathTools;
+				PRODUCT_NAME = TLIndexPathTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2111979BACBAFEE2D07D7B5B6950067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E0F3E9BA1C58957987CC088568C685 /* ApiAI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ApiAI/ApiAI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ApiAI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ApiAI/ApiAI.modulemap";
+				PRODUCT_MODULE_NAME = ApiAI;
+				PRODUCT_NAME = ApiAI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA424AD082A241B67F48ECCCC3AB39EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E0F3E9BA1C58957987CC088568C685 /* ApiAI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ApiAI/ApiAI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ApiAI/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ApiAI/ApiAI.modulemap";
+				PRODUCT_MODULE_NAME = ApiAI;
+				PRODUCT_NAME = ApiAI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9CC42655766C1276B46584993D42A5 /* Build configuration list for PBXNativeTarget "TLIndexPathTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E928E93F828C9081FC27929A3A1F72 /* Debug */,
+				017A30B081881D55C7EB3BE36DBCBA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8533A88D6AFFAA5C5AE1CDBFC04E7CF3 /* Build configuration list for PBXNativeTarget "Pods-SmartChatBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088CC4C17CBFC487457AC7061AF137BB /* Debug */,
+				6B8B5463DB54388CEDB1E32B47A649F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973D31C586D80BD0EDCD4FCCEE10E75C /* Build configuration list for PBXNativeTarget "ApiAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA424AD082A241B67F48ECCCC3AB39EF /* Debug */,
+				D2111979BACBAFEE2D07D7B5B6950067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

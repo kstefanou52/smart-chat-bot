@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatViewController" customModule="SmartChatBot" customModuleProvider="target">
+            <connections>
+                <outlet property="messageField" destination="Kvy-Rd-jKr" id="cIQ-Uo-dhX"/>
+                <outlet property="sendButton" destination="JJ8-6h-pgL" id="ifX-RC-vEG"/>
+                <outlet property="tableView" destination="y4I-Cy-lEM" id="HUy-TL-wp3"/>
+                <outlet property="view" destination="C6h-IZ-fVd" id="7WC-aI-qjA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="C6h-IZ-fVd">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="y4I-Cy-lEM">
+                    <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                    <color key="backgroundColor" red="0.20392156862745098" green="0.22745098039215686" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="c5h-Ot-c9J"/>
+                        <outlet property="delegate" destination="-1" id="uos-Q5-4c4"/>
+                    </connections>
+                </tableView>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdG-wK-6MY">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9c8-ZY-STG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat bot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tW-ws-3ES">
+                                <rect key="frame" x="152" y="45" width="71.5" height="23"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="7tW-ws-3ES" firstAttribute="centerX" secondItem="9c8-ZY-STG" secondAttribute="centerX" id="87K-bi-A0D"/>
+                            <constraint firstAttribute="bottom" secondItem="7tW-ws-3ES" secondAttribute="bottom" constant="12" id="iYa-Ow-oNr"/>
+                        </constraints>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="yLJ-jv-vwH"/>
+                    </constraints>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v4E-4A-ndz">
+                    <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJ8-6h-pgL">
+                            <rect key="frame" x="331" y="5" width="40" height="40"/>
+                            <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="KUP-qy-4oK"/>
+                                <constraint firstAttribute="width" constant="40" id="TKD-qO-rZ1"/>
+                            </constraints>
+                            <state key="normal" title="send">
+                                <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="sendPressed:" destination="-1" eventType="touchUpInside" id="SyR-Ap-xy5"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="test" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kvy-Rd-jKr" customClass="ChatMessageField" customModule="SmartChatBot" customModuleProvider="target">
+                            <rect key="frame" x="8" y="8" width="315" height="33"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.60774293664383561" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Kvy-Rd-jKr" firstAttribute="top" secondItem="v4E-4A-ndz" secondAttribute="top" constant="8" id="4gN-yP-7CC"/>
+                        <constraint firstItem="Kvy-Rd-jKr" firstAttribute="leading" secondItem="v4E-4A-ndz" secondAttribute="leading" constant="8" id="OTW-Z0-9nq"/>
+                        <constraint firstAttribute="bottom" secondItem="JJ8-6h-pgL" secondAttribute="bottom" constant="4" id="R7t-CT-zfk"/>
+                        <constraint firstAttribute="bottom" secondItem="Kvy-Rd-jKr" secondAttribute="bottom" constant="8" id="Rsk-Ag-9RZ"/>
+                        <constraint firstItem="JJ8-6h-pgL" firstAttribute="leading" secondItem="Kvy-Rd-jKr" secondAttribute="trailing" constant="8" id="dUr-g3-hSe"/>
+                        <constraint firstAttribute="trailing" secondItem="JJ8-6h-pgL" secondAttribute="trailing" constant="4" id="e0z-rP-hO0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.20392156862745098" green="0.22745098039215686" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HdG-wK-6MY" firstAttribute="leading" secondItem="PIu-PS-73G" secondAttribute="leading" id="51M-Ws-joC"/>
+                <constraint firstItem="HdG-wK-6MY" firstAttribute="top" secondItem="C6h-IZ-fVd" secondAttribute="top" id="X2z-dc-29A"/>
+                <constraint firstItem="y4I-Cy-lEM" firstAttribute="top" secondItem="PIu-PS-73G" secondAttribute="top" id="cBp-tQ-luy"/>
+                <constraint firstItem="v4E-4A-ndz" firstAttribute="trailing" secondItem="PIu-PS-73G" secondAttribute="trailing" id="cfv-Cm-cDl"/>
+                <constraint firstItem="v4E-4A-ndz" firstAttribute="leading" secondItem="PIu-PS-73G" secondAttribute="leading" id="dLb-kK-gT2"/>
+                <constraint firstItem="v4E-4A-ndz" firstAttribute="top" secondItem="y4I-Cy-lEM" secondAttribute="bottom" id="gCV-7x-g7C"/>
+                <constraint firstItem="PIu-PS-73G" firstAttribute="bottom" secondItem="v4E-4A-ndz" secondAttribute="bottom" id="lHN-Mb-Ajt"/>
+                <constraint firstItem="PIu-PS-73G" firstAttribute="trailing" secondItem="HdG-wK-6MY" secondAttribute="trailing" id="oul-ep-k3z"/>
+                <constraint firstItem="y4I-Cy-lEM" firstAttribute="leading" secondItem="PIu-PS-73G" secondAttribute="leading" id="v1f-h2-BeL"/>
+                <constraint firstItem="PIu-PS-73G" firstAttribute="trailing" secondItem="y4I-Cy-lEM" secondAttribute="trailing" id="yZe-b3-tPl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="PIu-PS-73G"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

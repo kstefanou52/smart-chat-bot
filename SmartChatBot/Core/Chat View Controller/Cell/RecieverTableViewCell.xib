@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="99" id="KGk-i7-Jjw" customClass="RecieverTableViewCell" customModule="SmartChatBot" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="422" height="98.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="receiver_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="jcT-jU-MV7">
+                        <rect key="frame" x="379" y="12" width="31" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="31" id="GYK-tZ-keE"/>
+                            <constraint firstAttribute="height" constant="31" id="ncZ-pE-EAD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="message" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y26-Gp-9iO">
+                        <rect key="frame" x="160" y="17.5" width="211" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Y26-Gp-9iO" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="6Kl-91-tMP"/>
+                    <constraint firstItem="jcT-jU-MV7" firstAttribute="leading" secondItem="Y26-Gp-9iO" secondAttribute="trailing" constant="8" id="GGU-oK-XT6"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Y26-Gp-9iO" secondAttribute="bottom" constant="8" id="YfP-eh-K7t"/>
+                    <constraint firstAttribute="trailing" secondItem="jcT-jU-MV7" secondAttribute="trailing" constant="12" id="fXv-Pn-bWe"/>
+                    <constraint firstItem="jcT-jU-MV7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="hn2-hG-28Q"/>
+                    <constraint firstItem="Y26-Gp-9iO" firstAttribute="centerY" secondItem="jcT-jU-MV7" secondAttribute="centerY" id="omT-ZA-qmw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bubbleImageView" destination="jcT-jU-MV7" id="aKd-Xk-qVn"/>
+                <outlet property="messageLabel" destination="Y26-Gp-9iO" id="nFs-pv-cp0"/>
+            </connections>
+            <point key="canvasLocation" x="86" y="81.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="receiver_avatar" width="512" height="512"/>
+    </resources>
+</document>

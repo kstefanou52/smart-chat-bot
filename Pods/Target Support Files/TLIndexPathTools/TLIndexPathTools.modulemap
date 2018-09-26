@@ -1,0 +1,6 @@
+framework module TLIndexPathTools {
+  umbrella header "TLIndexPathTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
